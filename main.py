@@ -60,7 +60,7 @@ def get_moodeng_price():
             
             # 포맷팅된 메시지 생성
             message = f"""
-[MOODENG](https://t.me/kaiamoodeng)
+[MOODENG](https://moodengkaia.com)
 [CA](https://kaiascope.com/token/{moodeng_address}) : `{moodeng_address}`
 💵 Price: ${md_price:.8f}
 💰 Market Cap: ${formatted_market_cap}
