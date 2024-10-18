@@ -1,5 +1,5 @@
 import telegram
-from telegram.ext import Application, CommandHandler
+from telegram.ext import ApplicationBuilder, CommandHandler
 import requests
 from dotenv import load_dotenv
 import os
@@ -13,7 +13,7 @@ chat_id = os.environ.get('chat_id')
 class TelegramBot:
     def __init__(self, name, token, chat_id):
         self.core = telegram.Bot(token)
-        self.application = Application.builder().token(token).build()
+        self.application = ApplicationBuilder().token(token).build()
         self.id = chat_id
         self.name = name
 
