@@ -20,8 +20,8 @@ token = os.environ.get('TELEGRAM_BOT_TOKEN')
 chat_id = os.environ.get('chat_id')
 
 # 이벤트 시작과 끝 블록 넘버 설정 (이 값들은 외부에서 설정 가능) average block time = 1.0s
-START_BLOCK = 167258897
-END_BLOCK = 167360000
+START_BLOCK = 167260000
+END_BLOCK = 167303200
 
 # 스왑 주소 설정 (업데이트됨)
 SWAP_ADDRESSES = [
@@ -94,7 +94,7 @@ async def find_start_page_and_index():
             for index, transfer in enumerate(transfers):
                 block_number = int(transfer['blockNumber'])
                 if block_number < START_BLOCK:
-                    return page, index + 1  # START_BLOCK보다 작은 블록의 다음 인덱스 반환
+                    return page, index
         
         if START_BLOCK > first_block:
             return page, 0  # 페이지의 모든 블록이 START_BLOCK보다 크면 0 인덱스 반환
@@ -112,15 +112,18 @@ async def process_transfers():
     for page in range(1, start_page + 1):
         transfers = await get_transfers(page)
 
-        if page == start_page:
-            # 마지막 페이지는 start_index부터 처리
-            for transfer in transfers[start_index:]:
+        if page == 1 and start_page == 1:
+            # start_page가 1이면 0부터 start_index까지만 처리
+            for transfer in transfers[:start_index]:
+                await update_transaction_data(transfer, transactions)      
+        elif page == start_page:
+            # start_page에서는 0부터 start_index까지 처리
+            for transfer in transfers[:start_index]:
                 await update_transaction_data(transfer, transactions)
         else:
             # 이전 페이지들은 모든 거래를 처리
             for transfer in transfers:
                 await update_transaction_data(transfer, transactions)
-
     return transactions
 
 async def update_transaction_data(transfer, transactions):
@@ -207,16 +210,19 @@ async def send_rankings(bot):
 
     message = "🏆 Net Purchase Ranking (Top 10)\n\n"
     for i, ranking in enumerate(rankings, 1):
-        message += f"{i}. `{ranking['address'][:6]}...{ranking['address'][-4:]}`: {ranking['net_purchase']:.6f} MOODENG\n"
+        message += f"{i}. `{ranking['address'][:6]}...{ranking['address'][-4:]}`: {ranking['net_purchase']:.2f}\n"
     
-    message += f"\n💡 Net purchase amount is calculated as the total purchase volume minus the sell volume through swaps from {START_BLOCK} to {END_BLOCK}.\n API 네트워크 상황에 따라 정확하지 않을 수 있으니 참고만 해주세요. \n 최종 순위는 트랜잭션 추가 검토 후 정확하게 집계하겠습니다. \n Please note that it may not be accurate depending on the API network situation. \n The final ranking will be accurately tallied after additional transaction review. \n "
+    message += f"\n🛒 [BUY MOODENG](https://swapscanner.io/pro/swap?from=0x0000000000000000000000000000000000000000&to=0xedcad4bd04f59e8fcc7c5fc7547e5112ae9923df&chartReady=true)"""
+    message += f"\n💡 Net purchase amount is calculated as the total purchase volume minus the sell volume through swaps from {START_BLOCK} to {END_BLOCK}."
+    message += f"\n💡 API 네트워크 상황에 따라 정확하지 않을 수 있으니 참고만 해주세요. 최종 순위는 트랜잭션 추가 검토 후 정확하게 집계하겠습니다."
+    message += f"\n💡 Please note that it may not be accurate depending on the API network situation. The final ranking will be accurately tallied after additional transaction review."
     
     await bot.send_message(text=message, parse_mode='Markdown')
 
 async def schedule_rankings_update(bot):
     while True:
         await send_rankings(bot)
-        await asyncio.sleep(600)  # 10분 대기
+        await asyncio.sleep(3600)  # 1시간 
 
 def format_market_cap(value):
     if value >= 1_000_000:
