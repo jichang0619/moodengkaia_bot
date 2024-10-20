@@ -6,10 +6,11 @@ import os
 import json
 import asyncio
 import aiohttp
-from datetime import datetime, timedelta  # 이 줄을 수정했습니다
+from datetime import datetime
 import csv
-from telegram import Update
-from telegram.ext import ContextTypes
+import os
+import aiofiles
+import aiohttp
 
 # CSV 파일 초기화
 CSV_FILE = 'transaction_log.csv'
@@ -21,8 +22,8 @@ token = os.environ.get('TELEGRAM_BOT_TOKEN')
 chat_id = os.environ.get('chat_id')
 
 # 이벤트 시작과 끝 블록 넘버 설정 (이 값들은 외부에서 설정 가능) average block time = 1.0s
-START_BLOCK = 167429702
-END_BLOCK = 168034504
+START_BLOCK = 167414090
+END_BLOCK = 1676510000
 
 # 스왑 주소 설정 (업데이트됨)
 SWAP_ADDRESSES = [
@@ -31,8 +32,7 @@ SWAP_ADDRESSES = [
     "0xd9ffa5dd8b595b904f76e3e7d71e4f85c3afa9ae",  # 새로 추가된 주소
     "0xedcad4bd04f59e8fcc7c5fc7547e5112ae9923df",  # 드래곤 스왑
     "0xea9cb97ed3d711afd07f1ba91b568627d12b6f9f",  # 드래곤 스왑
-    "0x0d1c6beeb4337d91a03ddd9b8d3e3dcd9fc1a89d",  # 드래곤 스왑
-    "0x4e7bbe1279c8ca0098698ee1f47d0b1ad246d44a"   # KLAY SWAP 
+    "0x0d1c6beeb4337d91a03ddd9b8d3e3dcd9fc1a89d"   # 드래곤 스왑
 ]
 
 MOODENG_ADDRESS = "0xedcad4bd04f59e8fcc7c5fc7547e5112ae9923df"
@@ -50,7 +50,6 @@ class TelegramBot:
         self.application = ApplicationBuilder().token(token).build()
         self.id = chat_id
         self.name = name
-        self.last_command_time = {}  # 각 사용자의 마지막 명령어 실행 시간을 저장할 딕셔너리
 
     async def send_message(self, text, parse_mode=None):
         if self.id:
@@ -65,27 +64,6 @@ class TelegramBot:
         await self.application.initialize()
         await self.application.start()
         await self.application.updater.start_polling()
-    
-    def add_handler(self, cmd, func):
-        # 핸들러에 쿨다운 체크 래퍼 추가
-        self.application.add_handler(CommandHandler(cmd, self.cooldown_wrapper(func)))
-
-    def cooldown_wrapper(self, func):
-        async def wrapper(update: Update, context: ContextTypes.DEFAULT_TYPE):
-            user_id = update.effective_user.id
-            current_time = datetime.now()
-            if user_id in self.last_command_time:
-                last_time = self.last_command_time[user_id]
-                if current_time - last_time < timedelta(seconds=60):
-                    await context.bot.send_message(
-                        chat_id=update.effective_chat.id,
-                        text="Please wait 60 seconds before using this command again.",
-                        parse_mode='Markdown'
-                    )
-                    return
-            self.last_command_time[user_id] = current_time
-            await func(update, context)
-        return wrapper
 
 async def get_transfers(page):
     url = f"https://api-cypress.klaytnscope.com/v2/tokens/{MOODENG_ADDRESS}/transfers?page={page}"
@@ -111,7 +89,7 @@ async def find_start_page_and_index():
         
         if START_BLOCK < last_block:
             page += 1
-            await asyncio.sleep(2.5)
+            await asyncio.sleep(5.0)
             continue
         
         if START_BLOCK <= first_block and START_BLOCK >= last_block:
@@ -123,7 +101,7 @@ async def find_start_page_and_index():
         if START_BLOCK > first_block:
             return page, 0  # 페이지의 모든 블록이 START_BLOCK보다 크면 0 인덱스 반환
         
-        await asyncio.sleep(2.5)
+        await asyncio.sleep(5.0)
 
 async def process_transfers():
     start_page, start_index = await find_start_page_and_index()
@@ -148,8 +126,6 @@ async def process_transfers():
             # 이전 페이지들은 모든 거래를 처리
             for transfer in transfers:
                 await update_transaction_data(transfer, transactions)
-        await asyncio.sleep(2.5)
-        
     return transactions
 
 async def update_transaction_data(transfer, transactions):
@@ -181,6 +157,7 @@ async def update_transaction_data(transfer, transactions):
 
 # CSV 파일 초기화 호출
 initialize_csv()
+
 
 async def load_rankings():
     try:
@@ -226,36 +203,29 @@ async def update_rankings():
         print(f"Error updating rankings: {str(e)}")
         return None
 
-async def rankings_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    try:
-        chat_id = update.effective_chat.id
-        rankings = await update_rankings()
-        
-        if rankings is None:
-            await context.bot.send_message(chat_id=chat_id, text="순위 업데이트 중 오류가 발생했습니다.", parse_mode='Markdown')
-            return
-
-        message = "🏆 Net Purchase Ranking (Top 10)\n\n"
-        for i, ranking in enumerate(rankings, 1):
-            message += f"{i}. `{ranking['address'][:6]}...{ranking['address'][-4:]}`: {ranking['net_purchase']:.2f}\n"
+async def send_rankings(bot):
+    rankings = await update_rankings()
     
-        message += f"\n🛒 [BUY MOODENG](https://swapscanner.io/pro/swap?from=0x0000000000000000000000000000000000000000&to=0xedcad4bd04f59e8fcc7c5fc7547e5112ae9923df&chartReady=true)"""
-        message += f"\n💡 Net purchase amount is calculated as the total purchase volume minus the sell volume through swaps from {START_BLOCK} to {END_BLOCK}."
-        message += f"\n💡 API 네트워크 상황에 따라 정확하지 않을 수 있으니 참고만 해주세요. 최종 순위는 트랜잭션 추가 검토 후 정확하게 집계하겠습니다."
-        message += f"\n💡 Please note that it may not be accurate depending on the API network situation. The final ranking will be accurately tallied after additional transaction review."
-        await context.bot.send_message(chat_id=chat_id, text=message, parse_mode='Markdown')
-    except Exception as e:
-        print(f"Error in rankings_command: {e}")
-        await context.bot.send_message(chat_id=chat_id, text="순위 정보를 가져오는 중 오류가 발생했습니다.", parse_mode='Markdown')
+    if rankings is None:
+        await bot.send_message(text="순위 업데이트 중 오류가 발생했습니다.", parse_mode='Markdown')
+        return
 
-async def proc_price(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    price_message = get_moodeng_price()
-    await context.bot.send_message(
-        chat_id=update.effective_chat.id,
-        text=price_message,
-        parse_mode='Markdown'
-    )
+    message = "🏆 TEST !!!!! Net Purchase Ranking (Top 10)\n\n"
+    for i, ranking in enumerate(rankings, 1):
+        message += f"{i}. `{ranking['address'][:6]}...{ranking['address'][-4:]}`: {ranking['net_purchase']:.2f}\n"
     
+    message += f"\n🛒 [BUY MOODENG](https://swapscanner.io/pro/swap?from=0x0000000000000000000000000000000000000000&to=0xedcad4bd04f59e8fcc7c5fc7547e5112ae9923df&chartReady=true)"""
+    message += f"\n💡 Net purchase amount is calculated as the total purchase volume minus the sell volume through swaps from {START_BLOCK} to {END_BLOCK}."
+    message += f"\n💡 API 네트워크 상황에 따라 정확하지 않을 수 있으니 참고만 해주세요. 최종 순위는 트랜잭션 추가 검토 후 정확하게 집계하겠습니다."
+    message += f"\n💡 Please note that it may not be accurate depending on the API network situation. The final ranking will be accurately tallied after additional transaction review."
+    
+    await bot.send_message(text=message, parse_mode='Markdown')
+
+async def schedule_rankings_update(bot):
+    while True:
+        await send_rankings(bot)
+        await asyncio.sleep(600)  # 1시간 
+
 def format_market_cap(value):
     if value >= 1_000_000:
         return f"{value/1_000_000:.2f}M"
@@ -306,12 +276,13 @@ async def proc_price(update, context):
 async def main():
     moodeng_kaia_bot = TelegramBot("kaia_bot", token, chat_id)
     moodeng_kaia_bot.add_handler("price", proc_price)
-    moodeng_kaia_bot.add_handler("rankings", rankings_command)
 
     await moodeng_kaia_bot.start()
 
+    asyncio.create_task(schedule_rankings_update(moodeng_kaia_bot))
+
     while True:
         await asyncio.sleep(1)
-        
+
 if __name__ == '__main__':
     asyncio.run(main())
