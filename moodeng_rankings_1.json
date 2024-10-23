@@ -1,0 +1,312 @@
+{
+  "last_updated": "2024-10-23T19:50:02.742108",
+  "start_block": 167429702,
+  "rankings": [
+    {
+      "address": "0x545cc4e40ebaf2856e1582550369d0301b495368",
+      "net_purchase": 25406478.50446005,
+      "buy": 25406478.50446005,
+      "sell": 0
+    },
+    {
+      "address": "0x3f11347ca4c99b553bc5a918bf1316242453d72f",
+      "net_purchase": 21526548.55165678,
+      "buy": 21526548.55165678,
+      "sell": 0
+    },
+    {
+      "address": "0x888f3bb0bfe94a39211faecedef546a8b33dbc9d",
+      "net_purchase": 10359280.761747763,
+      "buy": 10359280.761747763,
+      "sell": 0
+    },
+    {
+      "address": "0xa820cb418677620c798d1a5f014c04e79412a528",
+      "net_purchase": 10266685.286003258,
+      "buy": 10266685.286003258,
+      "sell": 0
+    },
+    {
+      "address": "0x9e3ce60edb42fe9719f6fe8528f1a0cd480a44bd",
+      "net_purchase": 4260784.647834733,
+      "buy": 4260784.647834733,
+      "sell": 0
+    },
+    {
+      "address": "0xbacd9e50447595a1420199bc2ff608adc275fcb5",
+      "net_purchase": 2687816.1674620006,
+      "buy": 2687816.1674620006,
+      "sell": 0
+    },
+    {
+      "address": "0x4367c70519a25222057ce3eec461f024e5463a59",
+      "net_purchase": 2422296.665234197,
+      "buy": 5358513.493514197,
+      "sell": 2936216.82828
+    },
+    {
+      "address": "0x0d1c6beeb4337d91a03ddd9b8d3e3dcd9fc1a89d",
+      "net_purchase": 2403609.595642954,
+      "buy": 2403609.595642954,
+      "sell": 0
+    },
+    {
+      "address": "0x855e183ed027ecbf6565a7298e8cb1b6ff4ebf26",
+      "net_purchase": 2315379.313529002,
+      "buy": 2315379.313529002,
+      "sell": 0
+    },
+    {
+      "address": "0x84f4066470c30448fe01c036d4042ca9a1b4acec",
+      "net_purchase": 1164555.0612395336,
+      "buy": 1164555.0612395336,
+      "sell": 0
+    },
+    {
+      "address": "0x00f125bd36e43dc54cf8c09eef4030dd9e738d82",
+      "net_purchase": 1122011.7530277031,
+      "buy": 1122011.7530277031,
+      "sell": 0
+    },
+    {
+      "address": "0x2f64a64b540e4637b906e09ef07bb56527186f29",
+      "net_purchase": 950484.4421316823,
+      "buy": 4948424.4982062485,
+      "sell": 3997940.056074566
+    },
+    {
+      "address": "0xe301cc7c554540654100169b7a62639caa2b2623",
+      "net_purchase": 539887.6333381697,
+      "buy": 661106.4512263571,
+      "sell": 121218.8178881875
+    },
+    {
+      "address": "0x7f534dffaab7bfb20a5a2fc9a457cc9d1a717f7e",
+      "net_purchase": 403057.2051140264,
+      "buy": 403057.2051140264,
+      "sell": 0
+    },
+    {
+      "address": "0x863988020a3715568ea27e3c117471503ab2c3db",
+      "net_purchase": 296697.7549597774,
+      "buy": 296697.7549597774,
+      "sell": 0
+    },
+    {
+      "address": "0x4c43cc0f53fd0139223a6b71ace8e43a159fec19",
+      "net_purchase": 282830.50626074686,
+      "buy": 1825830.5062607469,
+      "sell": 1543000.0
+    },
+    {
+      "address": "0x756563df5c674c371a630358aadc4b87ce6e2be5",
+      "net_purchase": 196659.07275169078,
+      "buy": 196659.07275169078,
+      "sell": 0
+    },
+    {
+      "address": "0xe5e12d35bf20b189c1a4fa7798410d46c38c9d62",
+      "net_purchase": 127156.18069704744,
+      "buy": 127156.18069704744,
+      "sell": 0
+    },
+    {
+      "address": "0xb3193785ca057edde11407c48a2e20284b4d6bb4",
+      "net_purchase": 126363.68340116607,
+      "buy": 126363.68340116607,
+      "sell": 0
+    },
+    {
+      "address": "0xe23f237108e9668665ef5f6d29a895a5c2d1fc80",
+      "net_purchase": 45288.91666829794,
+      "buy": 45288.91666829794,
+      "sell": 0
+    },
+    {
+      "address": "0xb42747aaba1bd63200eb3e0eb789a3e2057f8dbd",
+      "net_purchase": 13840.696203154323,
+      "buy": 13840.696203154323,
+      "sell": 0
+    },
+    {
+      "address": "0x3dd02dd7507dbd9bb0c89c6608a96b844e3fd07d",
+      "net_purchase": 1972.5375886265235,
+      "buy": 1972.5375886265235,
+      "sell": 0
+    },
+    {
+      "address": "0xc16d1cc354867777a2a701680d570e769f226c46",
+      "net_purchase": 986.224702324027,
+      "buy": 986.224702324027,
+      "sell": 0
+    },
+    {
+      "address": "0x1e460aaa79b23c780ef79a485f5b259a9a2bb77f",
+      "net_purchase": 446.57269258419734,
+      "buy": 446.57269258419734,
+      "sell": 0
+    },
+    {
+      "address": "0x4d870732fe950d4f8cd6fde8c98a58766b0558ea",
+      "net_purchase": 226.14540696246186,
+      "buy": 226.14540696246186,
+      "sell": 0
+    },
+    {
+      "address": "0xea557c40c08d7b78f9780a6be0a7153c29d9d280",
+      "net_purchase": 214.73139750445822,
+      "buy": 214.73139750445822,
+      "sell": 0
+    },
+    {
+      "address": "0x607d3c499a05e539e1868be95bc43bc9b06fa494",
+      "net_purchase": 197.40197392891974,
+      "buy": 197.40197392891974,
+      "sell": 0
+    },
+    {
+      "address": "0x6bc76771720a9cb809c0276420ffd66efa47771c",
+      "net_purchase": 46.70796221152755,
+      "buy": 46.70796221152755,
+      "sell": 0
+    },
+    {
+      "address": "0xbd4309f902e7c7ac7dc70edd3b0cc5b012569a53",
+      "net_purchase": 0.0,
+      "buy": 229683.0109709819,
+      "sell": 229683.0109709819
+    },
+    {
+      "address": "0xa5d9ce4aa0bedd516d4b4cab2050491bb14da609",
+      "net_purchase": 0.0,
+      "buy": 5291571.689102096,
+      "sell": 5291571.689102096
+    },
+    {
+      "address": "0xd5dadd6a9f8d8d8f06566e18d6588c9bfd30030a",
+      "net_purchase": 0.0,
+      "buy": 212632.0777957086,
+      "sell": 212632.0777957086
+    },
+    {
+      "address": "0x506f6204cf44abd7332124e98e5a6674f3b39a73",
+      "net_purchase": -98.25199521322091,
+      "buy": 73.57357452838261,
+      "sell": 171.82556974160352
+    },
+    {
+      "address": "0xcf5cf77fe2c2f0082ca26e143ce62ea959542b21",
+      "net_purchase": -10448.520236036657,
+      "buy": 0,
+      "sell": 10448.520236036657
+    },
+    {
+      "address": "0x6b46e45806e168720df7a09b3f7c7248cc394a6c",
+      "net_purchase": -43698.73719671016,
+      "buy": 0,
+      "sell": 43698.73719671016
+    },
+    {
+      "address": "0x11bfd4df754c0be0a1c7daa597cd3c48a2eddc3a",
+      "net_purchase": -103908.34206572018,
+      "buy": 0,
+      "sell": 103908.34206572018
+    },
+    {
+      "address": "0x46efaa66960a6916138b9693833cc1c5305ebf3a",
+      "net_purchase": -217793.59219876752,
+      "buy": 0,
+      "sell": 217793.59219876752
+    },
+    {
+      "address": "0xad5f9ad4971aa3a8d3d74bed36a065d165a9cb7f",
+      "net_purchase": -434800.47546590364,
+      "buy": 0,
+      "sell": 434800.47546590364
+    },
+    {
+      "address": "0xe96a89c0b97599ffdb26513097d2215f068189ac",
+      "net_purchase": -462851.11546897516,
+      "buy": 0,
+      "sell": 462851.11546897516
+    },
+    {
+      "address": "0xd4742439da2f03212495bb9492014bcde6ee419c",
+      "net_purchase": -500000.0,
+      "buy": 1240911.4814458294,
+      "sell": 1740911.4814458294
+    },
+    {
+      "address": "0xe4ae74a53778c36cefc274ec038ec1764fe5bc9a",
+      "net_purchase": -645848.7091909125,
+      "buy": 0,
+      "sell": 645848.7091909125
+    },
+    {
+      "address": "0x7e839e2ea2e570c74803dfc24b80cd69979cde18",
+      "net_purchase": -830993.3713463504,
+      "buy": 0,
+      "sell": 830993.3713463504
+    },
+    {
+      "address": "0x259de39695e5ac39dc06523d49bbd55401345423",
+      "net_purchase": -1140688.0,
+      "buy": 0,
+      "sell": 1140688.0
+    },
+    {
+      "address": "0xb953caa781e54a11775f6b58cb2a9f58073186c7",
+      "net_purchase": -1867842.0935755877,
+      "buy": 0,
+      "sell": 1867842.0935755877
+    },
+    {
+      "address": "0xa4d5db12b71ce4d31bf900f3629a3bbb93e29ef3",
+      "net_purchase": -2070845.5129228977,
+      "buy": 0,
+      "sell": 2070845.5129228977
+    },
+    {
+      "address": "0x346787cd6525040f67e50f6ef571ea628faadf0b",
+      "net_purchase": -2497710.658186522,
+      "buy": 0,
+      "sell": 2497710.658186522
+    },
+    {
+      "address": "0xf34713f90b8d11f4e6d9f5bea33ea3dc6943a3f9",
+      "net_purchase": -2811997.3300233167,
+      "buy": 6295778.607009981,
+      "sell": 9107775.937033297
+    },
+    {
+      "address": "0x5a9ca9c73b1964cc58039dcd887a81e8cb5a36a5",
+      "net_purchase": -4859848.902426597,
+      "buy": 0,
+      "sell": 4859848.902426597
+    },
+    {
+      "address": "0x1237189e0f6f966f9453e72f251bbce7da6f992f",
+      "net_purchase": -8182755.930215694,
+      "buy": 0,
+      "sell": 8182755.930215694
+    },
+    {
+      "address": "0xcdac935e0a5cfd7c0d864113771729f04ffbf47f",
+      "net_purchase": -13168134.550435327,
+      "buy": 0,
+      "sell": 13168134.550435327
+    },
+    {
+      "address": "0x75f17a84262b77a83042d7b48712333d74e674bf",
+      "net_purchase": -15100000.0,
+      "buy": 0,
+      "sell": 15100000.0
+    },
+    {
+      "address": "0x34c99e1d08da69afbaea80e1dfe7e1bcf3e5c162",
+      "net_purchase": -21599587.031310637,
+      "buy": 0,
+      "sell": 21599587.031310637
+    }
+  ]
+}

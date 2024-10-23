@@ -272,7 +272,7 @@ async def rankings_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
         message = "🏆 Net Purchase Ranking (Top 10)\n\n"
         for i, ranking in enumerate(rankings, 1):
-            message += f"{i}. `{ranking['address'][:6]}...{ranking['address'][-4:]}`: {ranking['net_purchase']:.2f}\n"
+            message += f"{i}. `{ranking['address'][:6]}...{ranking['address'][-4:]}`: {ranking['net_purchase']:,.2f}\n"
     
         message += f"\n🛒 [BUY MOODENG](https://swapscanner.io/pro/swap?from=0x0000000000000000000000000000000000000000&to=0xedcad4bd04f59e8fcc7c5fc7547e5112ae9923df&chartReady=true)"
         message += f"\n💡 Net purchase amount is calculated as the total purchase volume minus the sell volume through swaps from block {START_BLOCK}."
