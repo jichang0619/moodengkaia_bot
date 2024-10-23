@@ -28,10 +28,9 @@ END_BLOCK = 168034504
 SWAP_ADDRESSES = [
     "0xf50782a24afcb26acb85d086cf892bfffb5731b5",  # 스왑 스캐너
     "0x8d1179873ff63da28642b333569b993ef7796abd",  # 드래곤 스왑
-    "0xd9ffa5dd8b595b904f76e3e7d71e4f85c3afa9ae",  # 새로 추가된 주소
-    "0xedcad4bd04f59e8fcc7c5fc7547e5112ae9923df",  # 드래곤 스왑
+    "0xd9ffa5dd8b595b904f76e3e7d71e4f85c3afa9ae",  # 드래곤 스왑
+    "0xedcad4bd04f59e8fcc7c5fc7547e5112ae9923df",  # Moodeng Contract
     "0xea9cb97ed3d711afd07f1ba91b568627d12b6f9f",  # 드래곤 스왑
-    "0x0d1c6beeb4337d91a03ddd9b8d3e3dcd9fc1a89d",  # 드래곤 스왑
     "0x4e7bbe1279c8ca0098698ee1f47d0b1ad246d44a"   # KLAY SWAP 
 ]
 

@@ -2,5 +2,4 @@
 .env
 
 # file
-*.json
 *.csv

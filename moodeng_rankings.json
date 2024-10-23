@@ -1,0 +1,2646 @@
+{
+  "rankings": [],
+  "history": [
+    {
+      "last_updated": "2024-10-21T00:00:40.052620",
+      "start_block": 167429702,
+      "end_block": 168034504,
+      "rankings": [
+        {
+          "address": "0x888f3bb0bfe94a39211faecedef546a8b33dbc9d",
+          "net_purchase": 2657459.616354715
+        },
+        {
+          "address": "0x863988020a3715568ea27e3c117471503ab2c3db",
+          "net_purchase": 32842.337426337
+        },
+        {
+          "address": "0xe5e12d35bf20b189c1a4fa7798410d46c38c9d62",
+          "net_purchase": 14075.287468430142
+        },
+        {
+          "address": "0x506f6204cf44abd7332124e98e5a6674f3b39a73",
+          "net_purchase": -63.46562775357759
+        },
+        {
+          "address": "0xf34713f90b8d11f4e6d9f5bea33ea3dc6943a3f9",
+          "net_purchase": -1405998.665011658
+        }
+      ]
+    },
+    {
+      "last_updated": "2024-10-21T00:02:51.671786",
+      "start_block": 167429702,
+      "end_block": 168034504,
+      "rankings": [
+        {
+          "address": "0x888f3bb0bfe94a39211faecedef546a8b33dbc9d",
+          "net_purchase": 10359280.761747763
+        },
+        {
+          "address": "0xa820cb418677620c798d1a5f014c04e79412a528",
+          "net_purchase": 8733891.988063104
+        },
+        {
+          "address": "0xe301cc7c554540654100169b7a62639caa2b2623",
+          "net_purchase": 274551.3971996735
+        },
+        {
+          "address": "0x863988020a3715568ea27e3c117471503ab2c3db",
+          "net_purchase": 2509.748801803342
+        },
+        {
+          "address": "0xe5e12d35bf20b189c1a4fa7798410d46c38c9d62",
+          "net_purchase": 1075.6066293442893
+        },
+        {
+          "address": "0x506f6204cf44abd7332124e98e5a6674f3b39a73",
+          "net_purchase": -235.70267147644884
+        },
+        {
+          "address": "0x4e7bbe1279c8ca0098698ee1f47d0b1ad246d44a",
+          "net_purchase": -1083.2298735987279
+        },
+        {
+          "address": "0xf34713f90b8d11f4e6d9f5bea33ea3dc6943a3f9",
+          "net_purchase": -2811997.330023316
+        }
+      ]
+    },
+    {
+      "last_updated": "2024-10-21T00:11:22.540996",
+      "start_block": 167429702,
+      "end_block": 168034504,
+      "rankings": [
+        {
+          "address": "0x888f3bb0bfe94a39211faecedef546a8b33dbc9d",
+          "net_purchase": 10359280.761747763
+        },
+        {
+          "address": "0xa820cb418677620c798d1a5f014c04e79412a528",
+          "net_purchase": 10266685.286003258
+        },
+        {
+          "address": "0x545cc4e40ebaf2856e1582550369d0301b495368",
+          "net_purchase": 279354.23304343043
+        },
+        {
+          "address": "0xe301cc7c554540654100169b7a62639caa2b2623",
+          "net_purchase": 274551.3971996735
+        },
+        {
+          "address": "0x863988020a3715568ea27e3c117471503ab2c3db",
+          "net_purchase": 35352.99556243487
+        },
+        {
+          "address": "0xe5e12d35bf20b189c1a4fa7798410d46c38c9d62",
+          "net_purchase": 15151.28381247209
+        },
+        {
+          "address": "0x506f6204cf44abd7332124e98e5a6674f3b39a73",
+          "net_purchase": -163.38261168738958
+        },
+        {
+          "address": "0x46efaa66960a6916138b9693833cc1c5305ebf3a",
+          "net_purchase": -217793.59219876752
+        },
+        {
+          "address": "0x4c43cc0f53fd0139223a6b71ace8e43a159fec19",
+          "net_purchase": -664284.1926887967
+        },
+        {
+          "address": "0xa4d5db12b71ce4d31bf900f3629a3bbb93e29ef3",
+          "net_purchase": -2070845.5129228977
+        },
+        {
+          "address": "0xf34713f90b8d11f4e6d9f5bea33ea3dc6943a3f9",
+          "net_purchase": -2630849.5371590853
+        },
+        {
+          "address": "0x2f64a64b540e4637b906e09ef07bb56527186f29",
+          "net_purchase": -3997940.056074566
+        }
+      ]
+    },
+    {
+      "last_updated": "2024-10-21T00:23:01.224683",
+      "start_block": 167429702,
+      "end_block": 168034504,
+      "rankings": [
+        {
+          "address": "0x888f3bb0bfe94a39211faecedef546a8b33dbc9d",
+          "net_purchase": 10359280.761747763
+        },
+        {
+          "address": "0xa820cb418677620c798d1a5f014c04e79412a528",
+          "net_purchase": 10266685.286003258
+        },
+        {
+          "address": "0x4367c70519a25222057ce3eec461f024e5463a59",
+          "net_purchase": 2613142.665175959
+        },
+        {
+          "address": "0x545cc4e40ebaf2856e1582550369d0301b495368",
+          "net_purchase": 279354.23304343043
+        },
+        {
+          "address": "0xe301cc7c554540654100169b7a62639caa2b2623",
+          "net_purchase": 274551.3971996735
+        },
+        {
+          "address": "0x863988020a3715568ea27e3c117471503ab2c3db",
+          "net_purchase": 35352.99556243487
+        },
+        {
+          "address": "0xe5e12d35bf20b189c1a4fa7798410d46c38c9d62",
+          "net_purchase": 15151.28381247209
+        },
+        {
+          "address": "0x506f6204cf44abd7332124e98e5a6674f3b39a73",
+          "net_purchase": -163.38261168738958
+        },
+        {
+          "address": "0x46efaa66960a6916138b9693833cc1c5305ebf3a",
+          "net_purchase": -217793.59219876752
+        },
+        {
+          "address": "0x4c43cc0f53fd0139223a6b71ace8e43a159fec19",
+          "net_purchase": -664284.1926887967
+        },
+        {
+          "address": "0xa4d5db12b71ce4d31bf900f3629a3bbb93e29ef3",
+          "net_purchase": -2070845.5129228977
+        },
+        {
+          "address": "0x346787cd6525040f67e50f6ef571ea628faadf0b",
+          "net_purchase": -2497710.658186522
+        },
+        {
+          "address": "0xf34713f90b8d11f4e6d9f5bea33ea3dc6943a3f9",
+          "net_purchase": -2630849.5371590853
+        },
+        {
+          "address": "0x2f64a64b540e4637b906e09ef07bb56527186f29",
+          "net_purchase": -3997940.056074566
+        }
+      ]
+    },
+    {
+      "last_updated": "2024-10-21T00:41:46.438603",
+      "start_block": 167429702,
+      "end_block": 168034504,
+      "rankings": [
+        {
+          "address": "0x888f3bb0bfe94a39211faecedef546a8b33dbc9d",
+          "net_purchase": 10359280.761747763
+        },
+        {
+          "address": "0xa820cb418677620c798d1a5f014c04e79412a528",
+          "net_purchase": 10266685.286003258
+        },
+        {
+          "address": "0x4367c70519a25222057ce3eec461f024e5463a59",
+          "net_purchase": 2613142.665175959
+        },
+        {
+          "address": "0x545cc4e40ebaf2856e1582550369d0301b495368",
+          "net_purchase": 279354.23304343043
+        },
+        {
+          "address": "0xe301cc7c554540654100169b7a62639caa2b2623",
+          "net_purchase": 274551.3971996735
+        },
+        {
+          "address": "0x863988020a3715568ea27e3c117471503ab2c3db",
+          "net_purchase": 35352.99556243487
+        },
+        {
+          "address": "0xe5e12d35bf20b189c1a4fa7798410d46c38c9d62",
+          "net_purchase": 15151.28381247209
+        },
+        {
+          "address": "0x3dd02dd7507dbd9bb0c89c6608a96b844e3fd07d",
+          "net_purchase": 1972.5375886265235
+        },
+        {
+          "address": "0xc16d1cc354867777a2a701680d570e769f226c46",
+          "net_purchase": 986.224702324027
+        },
+        {
+          "address": "0x607d3c499a05e539e1868be95bc43bc9b06fa494",
+          "net_purchase": 197.40197392891974
+        },
+        {
+          "address": "0x506f6204cf44abd7332124e98e5a6674f3b39a73",
+          "net_purchase": -163.38261168738958
+        },
+        {
+          "address": "0x46efaa66960a6916138b9693833cc1c5305ebf3a",
+          "net_purchase": -217793.59219876752
+        },
+        {
+          "address": "0x4c43cc0f53fd0139223a6b71ace8e43a159fec19",
+          "net_purchase": -664284.1926887967
+        },
+        {
+          "address": "0xb953caa781e54a11775f6b58cb2a9f58073186c7",
+          "net_purchase": -1867842.0935755877
+        },
+        {
+          "address": "0xa4d5db12b71ce4d31bf900f3629a3bbb93e29ef3",
+          "net_purchase": -2070845.5129228977
+        },
+        {
+          "address": "0x346787cd6525040f67e50f6ef571ea628faadf0b",
+          "net_purchase": -2497710.658186522
+        },
+        {
+          "address": "0xf34713f90b8d11f4e6d9f5bea33ea3dc6943a3f9",
+          "net_purchase": -2630849.5371590853
+        },
+        {
+          "address": "0x2f64a64b540e4637b906e09ef07bb56527186f29",
+          "net_purchase": -3997940.056074566
+        }
+      ]
+    },
+    {
+      "last_updated": "2024-10-21T01:56:00.868980",
+      "start_block": 167429702,
+      "end_block": 168034504,
+      "rankings": [
+        {
+          "address": "0x888f3bb0bfe94a39211faecedef546a8b33dbc9d",
+          "net_purchase": 10359280.761747763
+        },
+        {
+          "address": "0xa820cb418677620c798d1a5f014c04e79412a528",
+          "net_purchase": 10266685.286003258
+        },
+        {
+          "address": "0x4367c70519a25222057ce3eec461f024e5463a59",
+          "net_purchase": 2613142.665175959
+        },
+        {
+          "address": "0x4c43cc0f53fd0139223a6b71ace8e43a159fec19",
+          "net_purchase": 282830.50626074686
+        },
+        {
+          "address": "0x545cc4e40ebaf2856e1582550369d0301b495368",
+          "net_purchase": 279354.23304343043
+        },
+        {
+          "address": "0xe301cc7c554540654100169b7a62639caa2b2623",
+          "net_purchase": 274551.3971996735
+        },
+        {
+          "address": "0x756563df5c674c371a630358aadc4b87ce6e2be5",
+          "net_purchase": 196659.07275169078
+        },
+        {
+          "address": "0x863988020a3715568ea27e3c117471503ab2c3db",
+          "net_purchase": 35352.99556243487
+        },
+        {
+          "address": "0xe5e12d35bf20b189c1a4fa7798410d46c38c9d62",
+          "net_purchase": 15151.28381247209
+        },
+        {
+          "address": "0x3dd02dd7507dbd9bb0c89c6608a96b844e3fd07d",
+          "net_purchase": 1972.5375886265235
+        },
+        {
+          "address": "0xc16d1cc354867777a2a701680d570e769f226c46",
+          "net_purchase": 986.224702324027
+        },
+        {
+          "address": "0x607d3c499a05e539e1868be95bc43bc9b06fa494",
+          "net_purchase": 197.40197392891974
+        },
+        {
+          "address": "0x506f6204cf44abd7332124e98e5a6674f3b39a73",
+          "net_purchase": -163.38261168738958
+        },
+        {
+          "address": "0x46efaa66960a6916138b9693833cc1c5305ebf3a",
+          "net_purchase": -217793.59219876752
+        },
+        {
+          "address": "0xb953caa781e54a11775f6b58cb2a9f58073186c7",
+          "net_purchase": -1867842.0935755877
+        },
+        {
+          "address": "0xa4d5db12b71ce4d31bf900f3629a3bbb93e29ef3",
+          "net_purchase": -2070845.5129228977
+        },
+        {
+          "address": "0xf34713f90b8d11f4e6d9f5bea33ea3dc6943a3f9",
+          "net_purchase": -2193968.235151802
+        },
+        {
+          "address": "0x346787cd6525040f67e50f6ef571ea628faadf0b",
+          "net_purchase": -2497710.658186522
+        },
+        {
+          "address": "0x2f64a64b540e4637b906e09ef07bb56527186f29",
+          "net_purchase": -3997940.056074566
+        },
+        {
+          "address": "0x5a9ca9c73b1964cc58039dcd887a81e8cb5a36a5",
+          "net_purchase": -4859848.902426597
+        }
+      ]
+    },
+    {
+      "last_updated": "2024-10-21T02:58:07.243258",
+      "start_block": 167429702,
+      "end_block": 168034504,
+      "rankings": [
+        {
+          "address": "0x888f3bb0bfe94a39211faecedef546a8b33dbc9d",
+          "net_purchase": 10359280.761747763
+        },
+        {
+          "address": "0xa820cb418677620c798d1a5f014c04e79412a528",
+          "net_purchase": 10266685.286003258
+        },
+        {
+          "address": "0x4367c70519a25222057ce3eec461f024e5463a59",
+          "net_purchase": 2613142.665175959
+        },
+        {
+          "address": "0x9e3ce60edb42fe9719f6fe8528f1a0cd480a44bd",
+          "net_purchase": 2260876.097962012
+        },
+        {
+          "address": "0x4c43cc0f53fd0139223a6b71ace8e43a159fec19",
+          "net_purchase": 282830.50626074686
+        },
+        {
+          "address": "0x545cc4e40ebaf2856e1582550369d0301b495368",
+          "net_purchase": 279354.23304343043
+        },
+        {
+          "address": "0xe301cc7c554540654100169b7a62639caa2b2623",
+          "net_purchase": 274551.3971996735
+        },
+        {
+          "address": "0x756563df5c674c371a630358aadc4b87ce6e2be5",
+          "net_purchase": 196659.07275169078
+        },
+        {
+          "address": "0x863988020a3715568ea27e3c117471503ab2c3db",
+          "net_purchase": 35352.99556243487
+        },
+        {
+          "address": "0xe5e12d35bf20b189c1a4fa7798410d46c38c9d62",
+          "net_purchase": 15151.28381247209
+        },
+        {
+          "address": "0x3dd02dd7507dbd9bb0c89c6608a96b844e3fd07d",
+          "net_purchase": 1972.5375886265235
+        },
+        {
+          "address": "0xc16d1cc354867777a2a701680d570e769f226c46",
+          "net_purchase": 986.224702324027
+        },
+        {
+          "address": "0x607d3c499a05e539e1868be95bc43bc9b06fa494",
+          "net_purchase": 197.40197392891974
+        },
+        {
+          "address": "0x506f6204cf44abd7332124e98e5a6674f3b39a73",
+          "net_purchase": -163.38261168738958
+        },
+        {
+          "address": "0x46efaa66960a6916138b9693833cc1c5305ebf3a",
+          "net_purchase": -217793.59219876752
+        },
+        {
+          "address": "0xb953caa781e54a11775f6b58cb2a9f58073186c7",
+          "net_purchase": -1867842.0935755877
+        },
+        {
+          "address": "0xa4d5db12b71ce4d31bf900f3629a3bbb93e29ef3",
+          "net_purchase": -2070845.5129228977
+        },
+        {
+          "address": "0xf34713f90b8d11f4e6d9f5bea33ea3dc6943a3f9",
+          "net_purchase": -2193968.235151802
+        },
+        {
+          "address": "0x346787cd6525040f67e50f6ef571ea628faadf0b",
+          "net_purchase": -2497710.658186522
+        },
+        {
+          "address": "0x2f64a64b540e4637b906e09ef07bb56527186f29",
+          "net_purchase": -3997940.056074566
+        },
+        {
+          "address": "0x5a9ca9c73b1964cc58039dcd887a81e8cb5a36a5",
+          "net_purchase": -4859848.902426597
+        }
+      ]
+    },
+    {
+      "last_updated": "2024-10-21T04:39:34.746622",
+      "start_block": 167429702,
+      "end_block": 168034504,
+      "rankings": [
+        {
+          "address": "0x888f3bb0bfe94a39211faecedef546a8b33dbc9d",
+          "net_purchase": 10359280.761747763
+        },
+        {
+          "address": "0xa820cb418677620c798d1a5f014c04e79412a528",
+          "net_purchase": 10266685.286003258
+        },
+        {
+          "address": "0x4367c70519a25222057ce3eec461f024e5463a59",
+          "net_purchase": 2613142.665175959
+        },
+        {
+          "address": "0x9e3ce60edb42fe9719f6fe8528f1a0cd480a44bd",
+          "net_purchase": 2260876.097962012
+        },
+        {
+          "address": "0x4c43cc0f53fd0139223a6b71ace8e43a159fec19",
+          "net_purchase": 282830.50626074686
+        },
+        {
+          "address": "0x545cc4e40ebaf2856e1582550369d0301b495368",
+          "net_purchase": 279354.23304343043
+        },
+        {
+          "address": "0xe301cc7c554540654100169b7a62639caa2b2623",
+          "net_purchase": 274551.3971996735
+        },
+        {
+          "address": "0x756563df5c674c371a630358aadc4b87ce6e2be5",
+          "net_purchase": 196659.07275169078
+        },
+        {
+          "address": "0x863988020a3715568ea27e3c117471503ab2c3db",
+          "net_purchase": 35352.99556243487
+        },
+        {
+          "address": "0xe5e12d35bf20b189c1a4fa7798410d46c38c9d62",
+          "net_purchase": 15151.28381247209
+        },
+        {
+          "address": "0x3dd02dd7507dbd9bb0c89c6608a96b844e3fd07d",
+          "net_purchase": 1972.5375886265235
+        },
+        {
+          "address": "0xc16d1cc354867777a2a701680d570e769f226c46",
+          "net_purchase": 986.224702324027
+        },
+        {
+          "address": "0x607d3c499a05e539e1868be95bc43bc9b06fa494",
+          "net_purchase": 197.40197392891974
+        },
+        {
+          "address": "0x506f6204cf44abd7332124e98e5a6674f3b39a73",
+          "net_purchase": -163.38261168738958
+        },
+        {
+          "address": "0x46efaa66960a6916138b9693833cc1c5305ebf3a",
+          "net_purchase": -217793.59219876752
+        },
+        {
+          "address": "0xb953caa781e54a11775f6b58cb2a9f58073186c7",
+          "net_purchase": -1867842.0935755877
+        },
+        {
+          "address": "0xa4d5db12b71ce4d31bf900f3629a3bbb93e29ef3",
+          "net_purchase": -2070845.5129228977
+        },
+        {
+          "address": "0xf34713f90b8d11f4e6d9f5bea33ea3dc6943a3f9",
+          "net_purchase": -2193968.235151802
+        },
+        {
+          "address": "0x346787cd6525040f67e50f6ef571ea628faadf0b",
+          "net_purchase": -2497710.658186522
+        },
+        {
+          "address": "0x2f64a64b540e4637b906e09ef07bb56527186f29",
+          "net_purchase": -3997940.056074566
+        },
+        {
+          "address": "0x5a9ca9c73b1964cc58039dcd887a81e8cb5a36a5",
+          "net_purchase": -4859848.902426597
+        }
+      ]
+    },
+    {
+      "last_updated": "2024-10-21T07:25:51.328340",
+      "start_block": 167429702,
+      "end_block": 168034504,
+      "rankings": [
+        {
+          "address": "0x888f3bb0bfe94a39211faecedef546a8b33dbc9d",
+          "net_purchase": 10359280.761747763
+        },
+        {
+          "address": "0xa820cb418677620c798d1a5f014c04e79412a528",
+          "net_purchase": 10266685.286003258
+        },
+        {
+          "address": "0x4367c70519a25222057ce3eec461f024e5463a59",
+          "net_purchase": 2613142.665175959
+        },
+        {
+          "address": "0x9e3ce60edb42fe9719f6fe8528f1a0cd480a44bd",
+          "net_purchase": 2260876.097962012
+        },
+        {
+          "address": "0x2f64a64b540e4637b906e09ef07bb56527186f29",
+          "net_purchase": 950484.4421316823
+        },
+        {
+          "address": "0x4c43cc0f53fd0139223a6b71ace8e43a159fec19",
+          "net_purchase": 282830.50626074686
+        },
+        {
+          "address": "0x545cc4e40ebaf2856e1582550369d0301b495368",
+          "net_purchase": 279354.23304343043
+        },
+        {
+          "address": "0xe301cc7c554540654100169b7a62639caa2b2623",
+          "net_purchase": 274551.3971996735
+        },
+        {
+          "address": "0x756563df5c674c371a630358aadc4b87ce6e2be5",
+          "net_purchase": 196659.07275169078
+        },
+        {
+          "address": "0x863988020a3715568ea27e3c117471503ab2c3db",
+          "net_purchase": 35352.99556243487
+        },
+        {
+          "address": "0xe5e12d35bf20b189c1a4fa7798410d46c38c9d62",
+          "net_purchase": 15151.28381247209
+        },
+        {
+          "address": "0x3dd02dd7507dbd9bb0c89c6608a96b844e3fd07d",
+          "net_purchase": 1972.5375886265235
+        },
+        {
+          "address": "0xc16d1cc354867777a2a701680d570e769f226c46",
+          "net_purchase": 986.224702324027
+        },
+        {
+          "address": "0x607d3c499a05e539e1868be95bc43bc9b06fa494",
+          "net_purchase": 197.40197392891974
+        },
+        {
+          "address": "0x506f6204cf44abd7332124e98e5a6674f3b39a73",
+          "net_purchase": -163.38261168738958
+        },
+        {
+          "address": "0x46efaa66960a6916138b9693833cc1c5305ebf3a",
+          "net_purchase": -217793.59219876752
+        },
+        {
+          "address": "0xb953caa781e54a11775f6b58cb2a9f58073186c7",
+          "net_purchase": -1867842.0935755877
+        },
+        {
+          "address": "0xa4d5db12b71ce4d31bf900f3629a3bbb93e29ef3",
+          "net_purchase": -2070845.5129228977
+        },
+        {
+          "address": "0xf34713f90b8d11f4e6d9f5bea33ea3dc6943a3f9",
+          "net_purchase": -2193111.2868931117
+        },
+        {
+          "address": "0x346787cd6525040f67e50f6ef571ea628faadf0b",
+          "net_purchase": -2497710.658186522
+        },
+        {
+          "address": "0x1237189e0f6f966f9453e72f251bbce7da6f992f",
+          "net_purchase": -4545688.9825539235
+        },
+        {
+          "address": "0x5a9ca9c73b1964cc58039dcd887a81e8cb5a36a5",
+          "net_purchase": -4859848.902426597
+        }
+      ]
+    },
+    {
+      "last_updated": "2024-10-21T07:42:22.541741",
+      "start_block": 167429702,
+      "end_block": 168034504,
+      "rankings": [
+        {
+          "address": "0x888f3bb0bfe94a39211faecedef546a8b33dbc9d",
+          "net_purchase": 10359280.761747763
+        },
+        {
+          "address": "0xa820cb418677620c798d1a5f014c04e79412a528",
+          "net_purchase": 10266685.286003258
+        },
+        {
+          "address": "0x4367c70519a25222057ce3eec461f024e5463a59",
+          "net_purchase": 2613142.665175959
+        },
+        {
+          "address": "0x9e3ce60edb42fe9719f6fe8528f1a0cd480a44bd",
+          "net_purchase": 2260876.097962012
+        },
+        {
+          "address": "0x2f64a64b540e4637b906e09ef07bb56527186f29",
+          "net_purchase": 950484.4421316823
+        },
+        {
+          "address": "0x4c43cc0f53fd0139223a6b71ace8e43a159fec19",
+          "net_purchase": 282830.50626074686
+        },
+        {
+          "address": "0x545cc4e40ebaf2856e1582550369d0301b495368",
+          "net_purchase": 279354.23304343043
+        },
+        {
+          "address": "0xe301cc7c554540654100169b7a62639caa2b2623",
+          "net_purchase": 274551.3971996735
+        },
+        {
+          "address": "0x756563df5c674c371a630358aadc4b87ce6e2be5",
+          "net_purchase": 196659.07275169078
+        },
+        {
+          "address": "0x863988020a3715568ea27e3c117471503ab2c3db",
+          "net_purchase": 35352.99556243487
+        },
+        {
+          "address": "0xe5e12d35bf20b189c1a4fa7798410d46c38c9d62",
+          "net_purchase": 15151.28381247209
+        },
+        {
+          "address": "0x3dd02dd7507dbd9bb0c89c6608a96b844e3fd07d",
+          "net_purchase": 1972.5375886265235
+        },
+        {
+          "address": "0xc16d1cc354867777a2a701680d570e769f226c46",
+          "net_purchase": 986.224702324027
+        },
+        {
+          "address": "0x607d3c499a05e539e1868be95bc43bc9b06fa494",
+          "net_purchase": 197.40197392891974
+        },
+        {
+          "address": "0x506f6204cf44abd7332124e98e5a6674f3b39a73",
+          "net_purchase": -163.38261168738958
+        },
+        {
+          "address": "0x46efaa66960a6916138b9693833cc1c5305ebf3a",
+          "net_purchase": -217793.59219876752
+        },
+        {
+          "address": "0xb953caa781e54a11775f6b58cb2a9f58073186c7",
+          "net_purchase": -1867842.0935755877
+        },
+        {
+          "address": "0xa4d5db12b71ce4d31bf900f3629a3bbb93e29ef3",
+          "net_purchase": -2070845.5129228977
+        },
+        {
+          "address": "0xf34713f90b8d11f4e6d9f5bea33ea3dc6943a3f9",
+          "net_purchase": -2193111.2868931117
+        },
+        {
+          "address": "0x346787cd6525040f67e50f6ef571ea628faadf0b",
+          "net_purchase": -2497710.658186522
+        },
+        {
+          "address": "0x1237189e0f6f966f9453e72f251bbce7da6f992f",
+          "net_purchase": -4545688.9825539235
+        },
+        {
+          "address": "0x5a9ca9c73b1964cc58039dcd887a81e8cb5a36a5",
+          "net_purchase": -4859848.902426597
+        }
+      ]
+    },
+    {
+      "last_updated": "2024-10-21T10:15:04.976274",
+      "start_block": 167429702,
+      "end_block": 168034504,
+      "rankings": [
+        {
+          "address": "0x545cc4e40ebaf2856e1582550369d0301b495368",
+          "net_purchase": 12174327.636937313
+        },
+        {
+          "address": "0x888f3bb0bfe94a39211faecedef546a8b33dbc9d",
+          "net_purchase": 10359280.761747763
+        },
+        {
+          "address": "0xa820cb418677620c798d1a5f014c04e79412a528",
+          "net_purchase": 10266685.286003258
+        },
+        {
+          "address": "0xa5d9ce4aa0bedd516d4b4cab2050491bb14da609",
+          "net_purchase": 5291571.689102096
+        },
+        {
+          "address": "0x9e3ce60edb42fe9719f6fe8528f1a0cd480a44bd",
+          "net_purchase": 2260876.097962012
+        },
+        {
+          "address": "0x84f4066470c30448fe01c036d4042ca9a1b4acec",
+          "net_purchase": 1164555.0612395336
+        },
+        {
+          "address": "0x2f64a64b540e4637b906e09ef07bb56527186f29",
+          "net_purchase": 950484.4421316823
+        },
+        {
+          "address": "0x4c43cc0f53fd0139223a6b71ace8e43a159fec19",
+          "net_purchase": 282830.50626074686
+        },
+        {
+          "address": "0xe301cc7c554540654100169b7a62639caa2b2623",
+          "net_purchase": 274551.3971996735
+        },
+        {
+          "address": "0x756563df5c674c371a630358aadc4b87ce6e2be5",
+          "net_purchase": 196659.07275169078
+        },
+        {
+          "address": "0x863988020a3715568ea27e3c117471503ab2c3db",
+          "net_purchase": 35352.99556243487
+        },
+        {
+          "address": "0xe5e12d35bf20b189c1a4fa7798410d46c38c9d62",
+          "net_purchase": 15151.28381247209
+        },
+        {
+          "address": "0x3dd02dd7507dbd9bb0c89c6608a96b844e3fd07d",
+          "net_purchase": 1972.5375886265235
+        },
+        {
+          "address": "0xc16d1cc354867777a2a701680d570e769f226c46",
+          "net_purchase": 986.224702324027
+        },
+        {
+          "address": "0x607d3c499a05e539e1868be95bc43bc9b06fa494",
+          "net_purchase": 197.40197392891974
+        },
+        {
+          "address": "0xd5dadd6a9f8d8d8f06566e18d6588c9bfd30030a",
+          "net_purchase": 0.0
+        },
+        {
+          "address": "0x506f6204cf44abd7332124e98e5a6674f3b39a73",
+          "net_purchase": -101.57384792929523
+        },
+        {
+          "address": "0x46efaa66960a6916138b9693833cc1c5305ebf3a",
+          "net_purchase": -217793.59219876752
+        },
+        {
+          "address": "0x4367c70519a25222057ce3eec461f024e5463a59",
+          "net_purchase": -323074.163104041
+        },
+        {
+          "address": "0xb953caa781e54a11775f6b58cb2a9f58073186c7",
+          "net_purchase": -1867842.0935755877
+        },
+        {
+          "address": "0xa4d5db12b71ce4d31bf900f3629a3bbb93e29ef3",
+          "net_purchase": -2070845.5129228977
+        },
+        {
+          "address": "0xf34713f90b8d11f4e6d9f5bea33ea3dc6943a3f9",
+          "net_purchase": -2451984.580553567
+        },
+        {
+          "address": "0x346787cd6525040f67e50f6ef571ea628faadf0b",
+          "net_purchase": -2497710.658186522
+        },
+        {
+          "address": "0xcdac935e0a5cfd7c0d864113771729f04ffbf47f",
+          "net_purchase": -4000000.0
+        },
+        {
+          "address": "0x5a9ca9c73b1964cc58039dcd887a81e8cb5a36a5",
+          "net_purchase": -4859848.902426597
+        },
+        {
+          "address": "0x1237189e0f6f966f9453e72f251bbce7da6f992f",
+          "net_purchase": -8182755.930215694
+        },
+        {
+          "address": "0x75f17a84262b77a83042d7b48712333d74e674bf",
+          "net_purchase": -10000000.0
+        }
+      ]
+    },
+    {
+      "last_updated": "2024-10-21T11:36:56.106688",
+      "start_block": 167429702,
+      "end_block": 168034504,
+      "rankings": [
+        {
+          "address": "0x545cc4e40ebaf2856e1582550369d0301b495368",
+          "net_purchase": 23811912.30204378
+        },
+        {
+          "address": "0x888f3bb0bfe94a39211faecedef546a8b33dbc9d",
+          "net_purchase": 10359280.761747763
+        },
+        {
+          "address": "0xa820cb418677620c798d1a5f014c04e79412a528",
+          "net_purchase": 10266685.286003258
+        },
+        {
+          "address": "0x9e3ce60edb42fe9719f6fe8528f1a0cd480a44bd",
+          "net_purchase": 2260876.097962012
+        },
+        {
+          "address": "0x855e183ed027ecbf6565a7298e8cb1b6ff4ebf26",
+          "net_purchase": 2090286.2624472803
+        },
+        {
+          "address": "0x84f4066470c30448fe01c036d4042ca9a1b4acec",
+          "net_purchase": 1164555.0612395336
+        },
+        {
+          "address": "0x2f64a64b540e4637b906e09ef07bb56527186f29",
+          "net_purchase": 950484.4421316823
+        },
+        {
+          "address": "0xe301cc7c554540654100169b7a62639caa2b2623",
+          "net_purchase": 661106.4512263571
+        },
+        {
+          "address": "0x7f534dffaab7bfb20a5a2fc9a457cc9d1a717f7e",
+          "net_purchase": 403057.2051140264
+        },
+        {
+          "address": "0x4c43cc0f53fd0139223a6b71ace8e43a159fec19",
+          "net_purchase": 282830.50626074686
+        },
+        {
+          "address": "0x863988020a3715568ea27e3c117471503ab2c3db",
+          "net_purchase": 265225.37418425194
+        },
+        {
+          "address": "0x756563df5c674c371a630358aadc4b87ce6e2be5",
+          "net_purchase": 196659.07275169078
+        },
+        {
+          "address": "0xe5e12d35bf20b189c1a4fa7798410d46c38c9d62",
+          "net_purchase": 113668.01750753654
+        },
+        {
+          "address": "0xb42747aaba1bd63200eb3e0eb789a3e2057f8dbd",
+          "net_purchase": 13840.696203154323
+        },
+        {
+          "address": "0x3dd02dd7507dbd9bb0c89c6608a96b844e3fd07d",
+          "net_purchase": 1972.5375886265235
+        },
+        {
+          "address": "0xc16d1cc354867777a2a701680d570e769f226c46",
+          "net_purchase": 986.224702324027
+        },
+        {
+          "address": "0x607d3c499a05e539e1868be95bc43bc9b06fa494",
+          "net_purchase": 197.40197392891974
+        },
+        {
+          "address": "0xa5d9ce4aa0bedd516d4b4cab2050491bb14da609",
+          "net_purchase": 0.0
+        },
+        {
+          "address": "0xd4742439da2f03212495bb9492014bcde6ee419c",
+          "net_purchase": 0.0
+        },
+        {
+          "address": "0xd5dadd6a9f8d8d8f06566e18d6588c9bfd30030a",
+          "net_purchase": 0.0
+        },
+        {
+          "address": "0x506f6204cf44abd7332124e98e5a6674f3b39a73",
+          "net_purchase": -101.57384792929523
+        },
+        {
+          "address": "0x46efaa66960a6916138b9693833cc1c5305ebf3a",
+          "net_purchase": -217793.59219876752
+        },
+        {
+          "address": "0x4367c70519a25222057ce3eec461f024e5463a59",
+          "net_purchase": -323074.163104041
+        },
+        {
+          "address": "0xf34713f90b8d11f4e6d9f5bea33ea3dc6943a3f9",
+          "net_purchase": -1814020.334139767
+        },
+        {
+          "address": "0xb953caa781e54a11775f6b58cb2a9f58073186c7",
+          "net_purchase": -1867842.0935755877
+        },
+        {
+          "address": "0xa4d5db12b71ce4d31bf900f3629a3bbb93e29ef3",
+          "net_purchase": -2070845.5129228977
+        },
+        {
+          "address": "0x346787cd6525040f67e50f6ef571ea628faadf0b",
+          "net_purchase": -2497710.658186522
+        },
+        {
+          "address": "0x5a9ca9c73b1964cc58039dcd887a81e8cb5a36a5",
+          "net_purchase": -4859848.902426597
+        },
+        {
+          "address": "0x1237189e0f6f966f9453e72f251bbce7da6f992f",
+          "net_purchase": -8182755.930215694
+        },
+        {
+          "address": "0xcdac935e0a5cfd7c0d864113771729f04ffbf47f",
+          "net_purchase": -13168134.550435327
+        },
+        {
+          "address": "0x75f17a84262b77a83042d7b48712333d74e674bf",
+          "net_purchase": -13500000.0
+        }
+      ]
+    },
+    {
+      "last_updated": "2024-10-21T13:48:50.639727",
+      "start_block": 167429702,
+      "end_block": 168034504,
+      "rankings": [
+        {
+          "address": "0x545cc4e40ebaf2856e1582550369d0301b495368",
+          "net_purchase": 25406478.50446005
+        },
+        {
+          "address": "0x888f3bb0bfe94a39211faecedef546a8b33dbc9d",
+          "net_purchase": 10359280.761747763
+        },
+        {
+          "address": "0xa820cb418677620c798d1a5f014c04e79412a528",
+          "net_purchase": 10266685.286003258
+        },
+        {
+          "address": "0x9e3ce60edb42fe9719f6fe8528f1a0cd480a44bd",
+          "net_purchase": 2260876.097962012
+        },
+        {
+          "address": "0x855e183ed027ecbf6565a7298e8cb1b6ff4ebf26",
+          "net_purchase": 2090286.2624472803
+        },
+        {
+          "address": "0x84f4066470c30448fe01c036d4042ca9a1b4acec",
+          "net_purchase": 1164555.0612395336
+        },
+        {
+          "address": "0x2f64a64b540e4637b906e09ef07bb56527186f29",
+          "net_purchase": 950484.4421316823
+        },
+        {
+          "address": "0xe301cc7c554540654100169b7a62639caa2b2623",
+          "net_purchase": 661106.4512263571
+        },
+        {
+          "address": "0x7f534dffaab7bfb20a5a2fc9a457cc9d1a717f7e",
+          "net_purchase": 403057.2051140264
+        },
+        {
+          "address": "0x863988020a3715568ea27e3c117471503ab2c3db",
+          "net_purchase": 289432.6496094446
+        },
+        {
+          "address": "0x4c43cc0f53fd0139223a6b71ace8e43a159fec19",
+          "net_purchase": 282830.50626074686
+        },
+        {
+          "address": "0x756563df5c674c371a630358aadc4b87ce6e2be5",
+          "net_purchase": 196659.07275169078
+        },
+        {
+          "address": "0xe5e12d35bf20b189c1a4fa7798410d46c38c9d62",
+          "net_purchase": 124042.5641183334
+        },
+        {
+          "address": "0xb42747aaba1bd63200eb3e0eb789a3e2057f8dbd",
+          "net_purchase": 13840.696203154323
+        },
+        {
+          "address": "0x3dd02dd7507dbd9bb0c89c6608a96b844e3fd07d",
+          "net_purchase": 1972.5375886265235
+        },
+        {
+          "address": "0xc16d1cc354867777a2a701680d570e769f226c46",
+          "net_purchase": 986.224702324027
+        },
+        {
+          "address": "0x607d3c499a05e539e1868be95bc43bc9b06fa494",
+          "net_purchase": 197.40197392891974
+        },
+        {
+          "address": "0xbd4309f902e7c7ac7dc70edd3b0cc5b012569a53",
+          "net_purchase": 0.0
+        },
+        {
+          "address": "0xa5d9ce4aa0bedd516d4b4cab2050491bb14da609",
+          "net_purchase": 0.0
+        },
+        {
+          "address": "0xd4742439da2f03212495bb9492014bcde6ee419c",
+          "net_purchase": 0.0
+        },
+        {
+          "address": "0xd5dadd6a9f8d8d8f06566e18d6588c9bfd30030a",
+          "net_purchase": 0.0
+        },
+        {
+          "address": "0x506f6204cf44abd7332124e98e5a6674f3b39a73",
+          "net_purchase": -98.25199521322091
+        },
+        {
+          "address": "0x46efaa66960a6916138b9693833cc1c5305ebf3a",
+          "net_purchase": -217793.59219876752
+        },
+        {
+          "address": "0x4367c70519a25222057ce3eec461f024e5463a59",
+          "net_purchase": -323074.163104041
+        },
+        {
+          "address": "0xf34713f90b8d11f4e6d9f5bea33ea3dc6943a3f9",
+          "net_purchase": -1814020.334139767
+        },
+        {
+          "address": "0xb953caa781e54a11775f6b58cb2a9f58073186c7",
+          "net_purchase": -1867842.0935755877
+        },
+        {
+          "address": "0xa4d5db12b71ce4d31bf900f3629a3bbb93e29ef3",
+          "net_purchase": -2070845.5129228977
+        },
+        {
+          "address": "0x346787cd6525040f67e50f6ef571ea628faadf0b",
+          "net_purchase": -2497710.658186522
+        },
+        {
+          "address": "0x5a9ca9c73b1964cc58039dcd887a81e8cb5a36a5",
+          "net_purchase": -4859848.902426597
+        },
+        {
+          "address": "0x1237189e0f6f966f9453e72f251bbce7da6f992f",
+          "net_purchase": -8182755.930215694
+        },
+        {
+          "address": "0xcdac935e0a5cfd7c0d864113771729f04ffbf47f",
+          "net_purchase": -13168134.550435327
+        },
+        {
+          "address": "0x75f17a84262b77a83042d7b48712333d74e674bf",
+          "net_purchase": -15100000.0
+        }
+      ]
+    },
+    {
+      "last_updated": "2024-10-21T15:06:45.829657",
+      "start_block": 167429702,
+      "end_block": 168034504,
+      "rankings": [
+        {
+          "address": "0x545cc4e40ebaf2856e1582550369d0301b495368",
+          "net_purchase": 25406478.50446005
+        },
+        {
+          "address": "0x888f3bb0bfe94a39211faecedef546a8b33dbc9d",
+          "net_purchase": 10359280.761747763
+        },
+        {
+          "address": "0xa820cb418677620c798d1a5f014c04e79412a528",
+          "net_purchase": 10266685.286003258
+        },
+        {
+          "address": "0x9e3ce60edb42fe9719f6fe8528f1a0cd480a44bd",
+          "net_purchase": 3260887.179359541
+        },
+        {
+          "address": "0x855e183ed027ecbf6565a7298e8cb1b6ff4ebf26",
+          "net_purchase": 2090286.2624472803
+        },
+        {
+          "address": "0x84f4066470c30448fe01c036d4042ca9a1b4acec",
+          "net_purchase": 1164555.0612395336
+        },
+        {
+          "address": "0x2f64a64b540e4637b906e09ef07bb56527186f29",
+          "net_purchase": 950484.4421316823
+        },
+        {
+          "address": "0xe301cc7c554540654100169b7a62639caa2b2623",
+          "net_purchase": 661106.4512263571
+        },
+        {
+          "address": "0x7f534dffaab7bfb20a5a2fc9a457cc9d1a717f7e",
+          "net_purchase": 403057.2051140264
+        },
+        {
+          "address": "0x863988020a3715568ea27e3c117471503ab2c3db",
+          "net_purchase": 289432.6496094446
+        },
+        {
+          "address": "0x4c43cc0f53fd0139223a6b71ace8e43a159fec19",
+          "net_purchase": 282830.50626074686
+        },
+        {
+          "address": "0x756563df5c674c371a630358aadc4b87ce6e2be5",
+          "net_purchase": 196659.07275169078
+        },
+        {
+          "address": "0xe5e12d35bf20b189c1a4fa7798410d46c38c9d62",
+          "net_purchase": 124042.5641183334
+        },
+        {
+          "address": "0xb42747aaba1bd63200eb3e0eb789a3e2057f8dbd",
+          "net_purchase": 13840.696203154323
+        },
+        {
+          "address": "0x3dd02dd7507dbd9bb0c89c6608a96b844e3fd07d",
+          "net_purchase": 1972.5375886265235
+        },
+        {
+          "address": "0xc16d1cc354867777a2a701680d570e769f226c46",
+          "net_purchase": 986.224702324027
+        },
+        {
+          "address": "0x607d3c499a05e539e1868be95bc43bc9b06fa494",
+          "net_purchase": 197.40197392891974
+        },
+        {
+          "address": "0xbd4309f902e7c7ac7dc70edd3b0cc5b012569a53",
+          "net_purchase": 0.0
+        },
+        {
+          "address": "0xa5d9ce4aa0bedd516d4b4cab2050491bb14da609",
+          "net_purchase": 0.0
+        },
+        {
+          "address": "0xd4742439da2f03212495bb9492014bcde6ee419c",
+          "net_purchase": 0.0
+        },
+        {
+          "address": "0xd5dadd6a9f8d8d8f06566e18d6588c9bfd30030a",
+          "net_purchase": 0.0
+        },
+        {
+          "address": "0x506f6204cf44abd7332124e98e5a6674f3b39a73",
+          "net_purchase": -98.25199521322091
+        },
+        {
+          "address": "0xe96a89c0b97599ffdb26513097d2215f068189ac",
+          "net_purchase": -160000.0
+        },
+        {
+          "address": "0x46efaa66960a6916138b9693833cc1c5305ebf3a",
+          "net_purchase": -217793.59219876752
+        },
+        {
+          "address": "0x4367c70519a25222057ce3eec461f024e5463a59",
+          "net_purchase": -323074.163104041
+        },
+        {
+          "address": "0xf34713f90b8d11f4e6d9f5bea33ea3dc6943a3f9",
+          "net_purchase": -1814020.334139767
+        },
+        {
+          "address": "0xb953caa781e54a11775f6b58cb2a9f58073186c7",
+          "net_purchase": -1867842.0935755877
+        },
+        {
+          "address": "0xa4d5db12b71ce4d31bf900f3629a3bbb93e29ef3",
+          "net_purchase": -2070845.5129228977
+        },
+        {
+          "address": "0x346787cd6525040f67e50f6ef571ea628faadf0b",
+          "net_purchase": -2497710.658186522
+        },
+        {
+          "address": "0x5a9ca9c73b1964cc58039dcd887a81e8cb5a36a5",
+          "net_purchase": -4859848.902426597
+        },
+        {
+          "address": "0x1237189e0f6f966f9453e72f251bbce7da6f992f",
+          "net_purchase": -8182755.930215694
+        },
+        {
+          "address": "0xcdac935e0a5cfd7c0d864113771729f04ffbf47f",
+          "net_purchase": -13168134.550435327
+        },
+        {
+          "address": "0x75f17a84262b77a83042d7b48712333d74e674bf",
+          "net_purchase": -15100000.0
+        }
+      ]
+    },
+    {
+      "last_updated": "2024-10-21T18:34:49.253979",
+      "start_block": 167429702,
+      "end_block": 168034504,
+      "rankings": [
+        {
+          "address": "0x545cc4e40ebaf2856e1582550369d0301b495368",
+          "net_purchase": 25406478.50446005
+        },
+        {
+          "address": "0x888f3bb0bfe94a39211faecedef546a8b33dbc9d",
+          "net_purchase": 10359280.761747763
+        },
+        {
+          "address": "0xa820cb418677620c798d1a5f014c04e79412a528",
+          "net_purchase": 10266685.286003258
+        },
+        {
+          "address": "0x9e3ce60edb42fe9719f6fe8528f1a0cd480a44bd",
+          "net_purchase": 3260887.179359541
+        },
+        {
+          "address": "0x855e183ed027ecbf6565a7298e8cb1b6ff4ebf26",
+          "net_purchase": 2090286.2624472803
+        },
+        {
+          "address": "0x0d1c6beeb4337d91a03ddd9b8d3e3dcd9fc1a89d",
+          "net_purchase": 2066340.9303591533
+        },
+        {
+          "address": "0x84f4066470c30448fe01c036d4042ca9a1b4acec",
+          "net_purchase": 1164555.0612395336
+        },
+        {
+          "address": "0x2f64a64b540e4637b906e09ef07bb56527186f29",
+          "net_purchase": 950484.4421316823
+        },
+        {
+          "address": "0xe301cc7c554540654100169b7a62639caa2b2623",
+          "net_purchase": 661106.4512263571
+        },
+        {
+          "address": "0x7f534dffaab7bfb20a5a2fc9a457cc9d1a717f7e",
+          "net_purchase": 403057.2051140264
+        },
+        {
+          "address": "0x863988020a3715568ea27e3c117471503ab2c3db",
+          "net_purchase": 289432.6496094446
+        },
+        {
+          "address": "0x4c43cc0f53fd0139223a6b71ace8e43a159fec19",
+          "net_purchase": 282830.50626074686
+        },
+        {
+          "address": "0x756563df5c674c371a630358aadc4b87ce6e2be5",
+          "net_purchase": 196659.07275169078
+        },
+        {
+          "address": "0xe5e12d35bf20b189c1a4fa7798410d46c38c9d62",
+          "net_purchase": 124042.5641183334
+        },
+        {
+          "address": "0xb42747aaba1bd63200eb3e0eb789a3e2057f8dbd",
+          "net_purchase": 13840.696203154323
+        },
+        {
+          "address": "0x3dd02dd7507dbd9bb0c89c6608a96b844e3fd07d",
+          "net_purchase": 1972.5375886265235
+        },
+        {
+          "address": "0xc16d1cc354867777a2a701680d570e769f226c46",
+          "net_purchase": 986.224702324027
+        },
+        {
+          "address": "0x607d3c499a05e539e1868be95bc43bc9b06fa494",
+          "net_purchase": 197.40197392891974
+        },
+        {
+          "address": "0xbd4309f902e7c7ac7dc70edd3b0cc5b012569a53",
+          "net_purchase": 0.0
+        },
+        {
+          "address": "0xa5d9ce4aa0bedd516d4b4cab2050491bb14da609",
+          "net_purchase": 0.0
+        },
+        {
+          "address": "0xd4742439da2f03212495bb9492014bcde6ee419c",
+          "net_purchase": 0.0
+        },
+        {
+          "address": "0xd5dadd6a9f8d8d8f06566e18d6588c9bfd30030a",
+          "net_purchase": 0.0
+        },
+        {
+          "address": "0x506f6204cf44abd7332124e98e5a6674f3b39a73",
+          "net_purchase": -98.25199521322091
+        },
+        {
+          "address": "0xe96a89c0b97599ffdb26513097d2215f068189ac",
+          "net_purchase": -160000.0
+        },
+        {
+          "address": "0x46efaa66960a6916138b9693833cc1c5305ebf3a",
+          "net_purchase": -217793.59219876752
+        },
+        {
+          "address": "0x7e839e2ea2e570c74803dfc24b80cd69979cde18",
+          "net_purchase": -224713.7109
+        },
+        {
+          "address": "0x4367c70519a25222057ce3eec461f024e5463a59",
+          "net_purchase": -323074.163104041
+        },
+        {
+          "address": "0xf34713f90b8d11f4e6d9f5bea33ea3dc6943a3f9",
+          "net_purchase": -1814020.334139767
+        },
+        {
+          "address": "0xb953caa781e54a11775f6b58cb2a9f58073186c7",
+          "net_purchase": -1867842.0935755877
+        },
+        {
+          "address": "0xa4d5db12b71ce4d31bf900f3629a3bbb93e29ef3",
+          "net_purchase": -2070845.5129228977
+        },
+        {
+          "address": "0x346787cd6525040f67e50f6ef571ea628faadf0b",
+          "net_purchase": -2497710.658186522
+        },
+        {
+          "address": "0x5a9ca9c73b1964cc58039dcd887a81e8cb5a36a5",
+          "net_purchase": -4859848.902426597
+        },
+        {
+          "address": "0x1237189e0f6f966f9453e72f251bbce7da6f992f",
+          "net_purchase": -8182755.930215694
+        },
+        {
+          "address": "0xcdac935e0a5cfd7c0d864113771729f04ffbf47f",
+          "net_purchase": -13168134.550435327
+        },
+        {
+          "address": "0x75f17a84262b77a83042d7b48712333d74e674bf",
+          "net_purchase": -15100000.0
+        }
+      ]
+    },
+    {
+      "last_updated": "2024-10-21T20:53:04.690518",
+      "start_block": 167429702,
+      "end_block": 168034504,
+      "rankings": [
+        {
+          "address": "0x545cc4e40ebaf2856e1582550369d0301b495368",
+          "net_purchase": 25406478.50446005
+        },
+        {
+          "address": "0x888f3bb0bfe94a39211faecedef546a8b33dbc9d",
+          "net_purchase": 10359280.761747763
+        },
+        {
+          "address": "0xa820cb418677620c798d1a5f014c04e79412a528",
+          "net_purchase": 10266685.286003258
+        },
+        {
+          "address": "0x9e3ce60edb42fe9719f6fe8528f1a0cd480a44bd",
+          "net_purchase": 3260887.179359541
+        },
+        {
+          "address": "0x0d1c6beeb4337d91a03ddd9b8d3e3dcd9fc1a89d",
+          "net_purchase": 2179423.1754162684
+        },
+        {
+          "address": "0x855e183ed027ecbf6565a7298e8cb1b6ff4ebf26",
+          "net_purchase": 2090286.2624472803
+        },
+        {
+          "address": "0x84f4066470c30448fe01c036d4042ca9a1b4acec",
+          "net_purchase": 1164555.0612395336
+        },
+        {
+          "address": "0x2f64a64b540e4637b906e09ef07bb56527186f29",
+          "net_purchase": 950484.4421316823
+        },
+        {
+          "address": "0xe301cc7c554540654100169b7a62639caa2b2623",
+          "net_purchase": 661106.4512263571
+        },
+        {
+          "address": "0x7f534dffaab7bfb20a5a2fc9a457cc9d1a717f7e",
+          "net_purchase": 403057.2051140264
+        },
+        {
+          "address": "0x863988020a3715568ea27e3c117471503ab2c3db",
+          "net_purchase": 289432.6496094446
+        },
+        {
+          "address": "0x4c43cc0f53fd0139223a6b71ace8e43a159fec19",
+          "net_purchase": 282830.50626074686
+        },
+        {
+          "address": "0x756563df5c674c371a630358aadc4b87ce6e2be5",
+          "net_purchase": 196659.07275169078
+        },
+        {
+          "address": "0xe5e12d35bf20b189c1a4fa7798410d46c38c9d62",
+          "net_purchase": 124042.5641183334
+        },
+        {
+          "address": "0xb42747aaba1bd63200eb3e0eb789a3e2057f8dbd",
+          "net_purchase": 13840.696203154323
+        },
+        {
+          "address": "0x3dd02dd7507dbd9bb0c89c6608a96b844e3fd07d",
+          "net_purchase": 1972.5375886265235
+        },
+        {
+          "address": "0xc16d1cc354867777a2a701680d570e769f226c46",
+          "net_purchase": 986.224702324027
+        },
+        {
+          "address": "0x607d3c499a05e539e1868be95bc43bc9b06fa494",
+          "net_purchase": 197.40197392891974
+        },
+        {
+          "address": "0xbd4309f902e7c7ac7dc70edd3b0cc5b012569a53",
+          "net_purchase": 0.0
+        },
+        {
+          "address": "0xa5d9ce4aa0bedd516d4b4cab2050491bb14da609",
+          "net_purchase": 0.0
+        },
+        {
+          "address": "0xd4742439da2f03212495bb9492014bcde6ee419c",
+          "net_purchase": 0.0
+        },
+        {
+          "address": "0xd5dadd6a9f8d8d8f06566e18d6588c9bfd30030a",
+          "net_purchase": 0.0
+        },
+        {
+          "address": "0x506f6204cf44abd7332124e98e5a6674f3b39a73",
+          "net_purchase": -98.25199521322091
+        },
+        {
+          "address": "0xe96a89c0b97599ffdb26513097d2215f068189ac",
+          "net_purchase": -160000.0
+        },
+        {
+          "address": "0x46efaa66960a6916138b9693833cc1c5305ebf3a",
+          "net_purchase": -217793.59219876752
+        },
+        {
+          "address": "0x7e839e2ea2e570c74803dfc24b80cd69979cde18",
+          "net_purchase": -224713.7109
+        },
+        {
+          "address": "0x4367c70519a25222057ce3eec461f024e5463a59",
+          "net_purchase": -323074.163104041
+        },
+        {
+          "address": "0xf34713f90b8d11f4e6d9f5bea33ea3dc6943a3f9",
+          "net_purchase": -1814020.334139767
+        },
+        {
+          "address": "0xb953caa781e54a11775f6b58cb2a9f58073186c7",
+          "net_purchase": -1867842.0935755877
+        },
+        {
+          "address": "0xa4d5db12b71ce4d31bf900f3629a3bbb93e29ef3",
+          "net_purchase": -2070845.5129228977
+        },
+        {
+          "address": "0x346787cd6525040f67e50f6ef571ea628faadf0b",
+          "net_purchase": -2497710.658186522
+        },
+        {
+          "address": "0x5a9ca9c73b1964cc58039dcd887a81e8cb5a36a5",
+          "net_purchase": -4859848.902426597
+        },
+        {
+          "address": "0x1237189e0f6f966f9453e72f251bbce7da6f992f",
+          "net_purchase": -8182755.930215694
+        },
+        {
+          "address": "0xcdac935e0a5cfd7c0d864113771729f04ffbf47f",
+          "net_purchase": -13168134.550435327
+        },
+        {
+          "address": "0x75f17a84262b77a83042d7b48712333d74e674bf",
+          "net_purchase": -15100000.0
+        }
+      ]
+    },
+    {
+      "last_updated": "2024-10-21T21:23:52.112610",
+      "start_block": 167429702,
+      "end_block": 168034504,
+      "rankings": [
+        {
+          "address": "0x545cc4e40ebaf2856e1582550369d0301b495368",
+          "net_purchase": 25406478.50446005
+        },
+        {
+          "address": "0x888f3bb0bfe94a39211faecedef546a8b33dbc9d",
+          "net_purchase": 10359280.761747763
+        },
+        {
+          "address": "0xa820cb418677620c798d1a5f014c04e79412a528",
+          "net_purchase": 10266685.286003258
+        },
+        {
+          "address": "0x9e3ce60edb42fe9719f6fe8528f1a0cd480a44bd",
+          "net_purchase": 3260887.179359541
+        },
+        {
+          "address": "0x855e183ed027ecbf6565a7298e8cb1b6ff4ebf26",
+          "net_purchase": 2315379.313529002
+        },
+        {
+          "address": "0x0d1c6beeb4337d91a03ddd9b8d3e3dcd9fc1a89d",
+          "net_purchase": 2179423.1754162684
+        },
+        {
+          "address": "0x84f4066470c30448fe01c036d4042ca9a1b4acec",
+          "net_purchase": 1164555.0612395336
+        },
+        {
+          "address": "0x2f64a64b540e4637b906e09ef07bb56527186f29",
+          "net_purchase": 950484.4421316823
+        },
+        {
+          "address": "0xe301cc7c554540654100169b7a62639caa2b2623",
+          "net_purchase": 661106.4512263571
+        },
+        {
+          "address": "0x7f534dffaab7bfb20a5a2fc9a457cc9d1a717f7e",
+          "net_purchase": 403057.2051140264
+        },
+        {
+          "address": "0x863988020a3715568ea27e3c117471503ab2c3db",
+          "net_purchase": 289432.6496094446
+        },
+        {
+          "address": "0x4c43cc0f53fd0139223a6b71ace8e43a159fec19",
+          "net_purchase": 282830.50626074686
+        },
+        {
+          "address": "0x756563df5c674c371a630358aadc4b87ce6e2be5",
+          "net_purchase": 196659.07275169078
+        },
+        {
+          "address": "0xe5e12d35bf20b189c1a4fa7798410d46c38c9d62",
+          "net_purchase": 124042.5641183334
+        },
+        {
+          "address": "0xb42747aaba1bd63200eb3e0eb789a3e2057f8dbd",
+          "net_purchase": 13840.696203154323
+        },
+        {
+          "address": "0x3dd02dd7507dbd9bb0c89c6608a96b844e3fd07d",
+          "net_purchase": 1972.5375886265235
+        },
+        {
+          "address": "0xc16d1cc354867777a2a701680d570e769f226c46",
+          "net_purchase": 986.224702324027
+        },
+        {
+          "address": "0x607d3c499a05e539e1868be95bc43bc9b06fa494",
+          "net_purchase": 197.40197392891974
+        },
+        {
+          "address": "0xbd4309f902e7c7ac7dc70edd3b0cc5b012569a53",
+          "net_purchase": 0.0
+        },
+        {
+          "address": "0xa5d9ce4aa0bedd516d4b4cab2050491bb14da609",
+          "net_purchase": 0.0
+        },
+        {
+          "address": "0xd4742439da2f03212495bb9492014bcde6ee419c",
+          "net_purchase": 0.0
+        },
+        {
+          "address": "0xd5dadd6a9f8d8d8f06566e18d6588c9bfd30030a",
+          "net_purchase": 0.0
+        },
+        {
+          "address": "0x506f6204cf44abd7332124e98e5a6674f3b39a73",
+          "net_purchase": -98.25199521322091
+        },
+        {
+          "address": "0xe96a89c0b97599ffdb26513097d2215f068189ac",
+          "net_purchase": -160000.0
+        },
+        {
+          "address": "0x46efaa66960a6916138b9693833cc1c5305ebf3a",
+          "net_purchase": -217793.59219876752
+        },
+        {
+          "address": "0x4367c70519a25222057ce3eec461f024e5463a59",
+          "net_purchase": -323074.163104041
+        },
+        {
+          "address": "0x7e839e2ea2e570c74803dfc24b80cd69979cde18",
+          "net_purchase": -336684.667527
+        },
+        {
+          "address": "0xf34713f90b8d11f4e6d9f5bea33ea3dc6943a3f9",
+          "net_purchase": -1814020.334139767
+        },
+        {
+          "address": "0xb953caa781e54a11775f6b58cb2a9f58073186c7",
+          "net_purchase": -1867842.0935755877
+        },
+        {
+          "address": "0xa4d5db12b71ce4d31bf900f3629a3bbb93e29ef3",
+          "net_purchase": -2070845.5129228977
+        },
+        {
+          "address": "0x346787cd6525040f67e50f6ef571ea628faadf0b",
+          "net_purchase": -2497710.658186522
+        },
+        {
+          "address": "0x5a9ca9c73b1964cc58039dcd887a81e8cb5a36a5",
+          "net_purchase": -4859848.902426597
+        },
+        {
+          "address": "0x1237189e0f6f966f9453e72f251bbce7da6f992f",
+          "net_purchase": -8182755.930215694
+        },
+        {
+          "address": "0xcdac935e0a5cfd7c0d864113771729f04ffbf47f",
+          "net_purchase": -13168134.550435327
+        },
+        {
+          "address": "0x75f17a84262b77a83042d7b48712333d74e674bf",
+          "net_purchase": -15100000.0
+        }
+      ]
+    },
+    {
+      "last_updated": "2024-10-21T22:53:17.456334",
+      "start_block": 167429702,
+      "end_block": 168034504,
+      "rankings": [
+        {
+          "address": "0x545cc4e40ebaf2856e1582550369d0301b495368",
+          "net_purchase": 25406478.50446005
+        },
+        {
+          "address": "0x888f3bb0bfe94a39211faecedef546a8b33dbc9d",
+          "net_purchase": 10359280.761747763
+        },
+        {
+          "address": "0xa820cb418677620c798d1a5f014c04e79412a528",
+          "net_purchase": 10266685.286003258
+        },
+        {
+          "address": "0x9e3ce60edb42fe9719f6fe8528f1a0cd480a44bd",
+          "net_purchase": 3260887.179359541
+        },
+        {
+          "address": "0x4367c70519a25222057ce3eec461f024e5463a59",
+          "net_purchase": 2422296.665234197
+        },
+        {
+          "address": "0x855e183ed027ecbf6565a7298e8cb1b6ff4ebf26",
+          "net_purchase": 2315379.313529002
+        },
+        {
+          "address": "0x0d1c6beeb4337d91a03ddd9b8d3e3dcd9fc1a89d",
+          "net_purchase": 2179423.1754162684
+        },
+        {
+          "address": "0x84f4066470c30448fe01c036d4042ca9a1b4acec",
+          "net_purchase": 1164555.0612395336
+        },
+        {
+          "address": "0x2f64a64b540e4637b906e09ef07bb56527186f29",
+          "net_purchase": 950484.4421316823
+        },
+        {
+          "address": "0xe301cc7c554540654100169b7a62639caa2b2623",
+          "net_purchase": 661106.4512263571
+        },
+        {
+          "address": "0x7f534dffaab7bfb20a5a2fc9a457cc9d1a717f7e",
+          "net_purchase": 403057.2051140264
+        },
+        {
+          "address": "0x863988020a3715568ea27e3c117471503ab2c3db",
+          "net_purchase": 289432.6496094446
+        },
+        {
+          "address": "0x4c43cc0f53fd0139223a6b71ace8e43a159fec19",
+          "net_purchase": 282830.50626074686
+        },
+        {
+          "address": "0x756563df5c674c371a630358aadc4b87ce6e2be5",
+          "net_purchase": 196659.07275169078
+        },
+        {
+          "address": "0xe5e12d35bf20b189c1a4fa7798410d46c38c9d62",
+          "net_purchase": 124042.5641183334
+        },
+        {
+          "address": "0xe23f237108e9668665ef5f6d29a895a5c2d1fc80",
+          "net_purchase": 45288.91666829794
+        },
+        {
+          "address": "0xb42747aaba1bd63200eb3e0eb789a3e2057f8dbd",
+          "net_purchase": 13840.696203154323
+        },
+        {
+          "address": "0x3dd02dd7507dbd9bb0c89c6608a96b844e3fd07d",
+          "net_purchase": 1972.5375886265235
+        },
+        {
+          "address": "0xc16d1cc354867777a2a701680d570e769f226c46",
+          "net_purchase": 986.224702324027
+        },
+        {
+          "address": "0xea557c40c08d7b78f9780a6be0a7153c29d9d280",
+          "net_purchase": 214.73139750445822
+        },
+        {
+          "address": "0x607d3c499a05e539e1868be95bc43bc9b06fa494",
+          "net_purchase": 197.40197392891974
+        },
+        {
+          "address": "0xbd4309f902e7c7ac7dc70edd3b0cc5b012569a53",
+          "net_purchase": 0.0
+        },
+        {
+          "address": "0xa5d9ce4aa0bedd516d4b4cab2050491bb14da609",
+          "net_purchase": 0.0
+        },
+        {
+          "address": "0xd4742439da2f03212495bb9492014bcde6ee419c",
+          "net_purchase": 0.0
+        },
+        {
+          "address": "0xd5dadd6a9f8d8d8f06566e18d6588c9bfd30030a",
+          "net_purchase": 0.0
+        },
+        {
+          "address": "0x506f6204cf44abd7332124e98e5a6674f3b39a73",
+          "net_purchase": -98.25199521322091
+        },
+        {
+          "address": "0xe96a89c0b97599ffdb26513097d2215f068189ac",
+          "net_purchase": -160000.0
+        },
+        {
+          "address": "0x46efaa66960a6916138b9693833cc1c5305ebf3a",
+          "net_purchase": -217793.59219876752
+        },
+        {
+          "address": "0x7e839e2ea2e570c74803dfc24b80cd69979cde18",
+          "net_purchase": -336684.667527
+        },
+        {
+          "address": "0xb953caa781e54a11775f6b58cb2a9f58073186c7",
+          "net_purchase": -1867842.0935755877
+        },
+        {
+          "address": "0xa4d5db12b71ce4d31bf900f3629a3bbb93e29ef3",
+          "net_purchase": -2070845.5129228977
+        },
+        {
+          "address": "0xf34713f90b8d11f4e6d9f5bea33ea3dc6943a3f9",
+          "net_purchase": -2313008.8320815414
+        },
+        {
+          "address": "0x346787cd6525040f67e50f6ef571ea628faadf0b",
+          "net_purchase": -2497710.658186522
+        },
+        {
+          "address": "0x5a9ca9c73b1964cc58039dcd887a81e8cb5a36a5",
+          "net_purchase": -4859848.902426597
+        },
+        {
+          "address": "0x1237189e0f6f966f9453e72f251bbce7da6f992f",
+          "net_purchase": -8182755.930215694
+        },
+        {
+          "address": "0xcdac935e0a5cfd7c0d864113771729f04ffbf47f",
+          "net_purchase": -13168134.550435327
+        },
+        {
+          "address": "0x75f17a84262b77a83042d7b48712333d74e674bf",
+          "net_purchase": -15100000.0
+        }
+      ]
+    },
+    {
+      "last_updated": "2024-10-22T07:47:54.522045",
+      "start_block": 167429702,
+      "end_block": 168034504,
+      "rankings": [
+        {
+          "address": "0x545cc4e40ebaf2856e1582550369d0301b495368",
+          "net_purchase": 25406478.50446005
+        },
+        {
+          "address": "0x888f3bb0bfe94a39211faecedef546a8b33dbc9d",
+          "net_purchase": 10359280.761747763
+        },
+        {
+          "address": "0xa820cb418677620c798d1a5f014c04e79412a528",
+          "net_purchase": 10266685.286003258
+        },
+        {
+          "address": "0x9e3ce60edb42fe9719f6fe8528f1a0cd480a44bd",
+          "net_purchase": 3260887.179359541
+        },
+        {
+          "address": "0x4367c70519a25222057ce3eec461f024e5463a59",
+          "net_purchase": 2422296.665234197
+        },
+        {
+          "address": "0x855e183ed027ecbf6565a7298e8cb1b6ff4ebf26",
+          "net_purchase": 2315379.313529002
+        },
+        {
+          "address": "0x0d1c6beeb4337d91a03ddd9b8d3e3dcd9fc1a89d",
+          "net_purchase": 2179423.1754162684
+        },
+        {
+          "address": "0x84f4066470c30448fe01c036d4042ca9a1b4acec",
+          "net_purchase": 1164555.0612395336
+        },
+        {
+          "address": "0x2f64a64b540e4637b906e09ef07bb56527186f29",
+          "net_purchase": 950484.4421316823
+        },
+        {
+          "address": "0xe301cc7c554540654100169b7a62639caa2b2623",
+          "net_purchase": 661106.4512263571
+        },
+        {
+          "address": "0x7f534dffaab7bfb20a5a2fc9a457cc9d1a717f7e",
+          "net_purchase": 403057.2051140264
+        },
+        {
+          "address": "0x863988020a3715568ea27e3c117471503ab2c3db",
+          "net_purchase": 289432.6496094446
+        },
+        {
+          "address": "0x4c43cc0f53fd0139223a6b71ace8e43a159fec19",
+          "net_purchase": 282830.50626074686
+        },
+        {
+          "address": "0x756563df5c674c371a630358aadc4b87ce6e2be5",
+          "net_purchase": 196659.07275169078
+        },
+        {
+          "address": "0xe5e12d35bf20b189c1a4fa7798410d46c38c9d62",
+          "net_purchase": 124042.5641183334
+        },
+        {
+          "address": "0xe23f237108e9668665ef5f6d29a895a5c2d1fc80",
+          "net_purchase": 45288.91666829794
+        },
+        {
+          "address": "0xb42747aaba1bd63200eb3e0eb789a3e2057f8dbd",
+          "net_purchase": 13840.696203154323
+        },
+        {
+          "address": "0x3dd02dd7507dbd9bb0c89c6608a96b844e3fd07d",
+          "net_purchase": 1972.5375886265235
+        },
+        {
+          "address": "0xc16d1cc354867777a2a701680d570e769f226c46",
+          "net_purchase": 986.224702324027
+        },
+        {
+          "address": "0xea557c40c08d7b78f9780a6be0a7153c29d9d280",
+          "net_purchase": 214.73139750445822
+        },
+        {
+          "address": "0x607d3c499a05e539e1868be95bc43bc9b06fa494",
+          "net_purchase": 197.40197392891974
+        },
+        {
+          "address": "0xbd4309f902e7c7ac7dc70edd3b0cc5b012569a53",
+          "net_purchase": 0.0
+        },
+        {
+          "address": "0xa5d9ce4aa0bedd516d4b4cab2050491bb14da609",
+          "net_purchase": 0.0
+        },
+        {
+          "address": "0xd4742439da2f03212495bb9492014bcde6ee419c",
+          "net_purchase": 0.0
+        },
+        {
+          "address": "0xd5dadd6a9f8d8d8f06566e18d6588c9bfd30030a",
+          "net_purchase": 0.0
+        },
+        {
+          "address": "0x506f6204cf44abd7332124e98e5a6674f3b39a73",
+          "net_purchase": -98.25199521322091
+        },
+        {
+          "address": "0x6b46e45806e168720df7a09b3f7c7248cc394a6c",
+          "net_purchase": -43698.73719671016
+        },
+        {
+          "address": "0x46efaa66960a6916138b9693833cc1c5305ebf3a",
+          "net_purchase": -217793.59219876752
+        },
+        {
+          "address": "0xe96a89c0b97599ffdb26513097d2215f068189ac",
+          "net_purchase": -312851.11546897516
+        },
+        {
+          "address": "0x7e839e2ea2e570c74803dfc24b80cd69979cde18",
+          "net_purchase": -336684.667527
+        },
+        {
+          "address": "0xad5f9ad4971aa3a8d3d74bed36a065d165a9cb7f",
+          "net_purchase": -434800.47546590364
+        },
+        {
+          "address": "0xb953caa781e54a11775f6b58cb2a9f58073186c7",
+          "net_purchase": -1867842.0935755877
+        },
+        {
+          "address": "0xa4d5db12b71ce4d31bf900f3629a3bbb93e29ef3",
+          "net_purchase": -2070845.5129228977
+        },
+        {
+          "address": "0xf34713f90b8d11f4e6d9f5bea33ea3dc6943a3f9",
+          "net_purchase": -2313008.8320815414
+        },
+        {
+          "address": "0x346787cd6525040f67e50f6ef571ea628faadf0b",
+          "net_purchase": -2497710.658186522
+        },
+        {
+          "address": "0x5a9ca9c73b1964cc58039dcd887a81e8cb5a36a5",
+          "net_purchase": -4859848.902426597
+        },
+        {
+          "address": "0x1237189e0f6f966f9453e72f251bbce7da6f992f",
+          "net_purchase": -8182755.930215694
+        },
+        {
+          "address": "0xcdac935e0a5cfd7c0d864113771729f04ffbf47f",
+          "net_purchase": -13168134.550435327
+        },
+        {
+          "address": "0x75f17a84262b77a83042d7b48712333d74e674bf",
+          "net_purchase": -15100000.0
+        }
+      ]
+    },
+    {
+      "last_updated": "2024-10-22T12:55:32.403799",
+      "start_block": 167429702,
+      "end_block": 168034504,
+      "rankings": [
+        {
+          "address": "0x545cc4e40ebaf2856e1582550369d0301b495368",
+          "net_purchase": 25406478.50446005
+        },
+        {
+          "address": "0x888f3bb0bfe94a39211faecedef546a8b33dbc9d",
+          "net_purchase": 10359280.761747763
+        },
+        {
+          "address": "0xa820cb418677620c798d1a5f014c04e79412a528",
+          "net_purchase": 10266685.286003258
+        },
+        {
+          "address": "0x9e3ce60edb42fe9719f6fe8528f1a0cd480a44bd",
+          "net_purchase": 3260887.179359541
+        },
+        {
+          "address": "0x4367c70519a25222057ce3eec461f024e5463a59",
+          "net_purchase": 2422296.665234197
+        },
+        {
+          "address": "0x855e183ed027ecbf6565a7298e8cb1b6ff4ebf26",
+          "net_purchase": 2315379.313529002
+        },
+        {
+          "address": "0x0d1c6beeb4337d91a03ddd9b8d3e3dcd9fc1a89d",
+          "net_purchase": 2179423.1754162684
+        },
+        {
+          "address": "0x84f4066470c30448fe01c036d4042ca9a1b4acec",
+          "net_purchase": 1164555.0612395336
+        },
+        {
+          "address": "0x2f64a64b540e4637b906e09ef07bb56527186f29",
+          "net_purchase": 950484.4421316823
+        },
+        {
+          "address": "0xe301cc7c554540654100169b7a62639caa2b2623",
+          "net_purchase": 661106.4512263571
+        },
+        {
+          "address": "0x7f534dffaab7bfb20a5a2fc9a457cc9d1a717f7e",
+          "net_purchase": 403057.2051140264
+        },
+        {
+          "address": "0x863988020a3715568ea27e3c117471503ab2c3db",
+          "net_purchase": 289432.6496094446
+        },
+        {
+          "address": "0x4c43cc0f53fd0139223a6b71ace8e43a159fec19",
+          "net_purchase": 282830.50626074686
+        },
+        {
+          "address": "0x756563df5c674c371a630358aadc4b87ce6e2be5",
+          "net_purchase": 196659.07275169078
+        },
+        {
+          "address": "0xe5e12d35bf20b189c1a4fa7798410d46c38c9d62",
+          "net_purchase": 124042.5641183334
+        },
+        {
+          "address": "0xe23f237108e9668665ef5f6d29a895a5c2d1fc80",
+          "net_purchase": 45288.91666829794
+        },
+        {
+          "address": "0xb42747aaba1bd63200eb3e0eb789a3e2057f8dbd",
+          "net_purchase": 13840.696203154323
+        },
+        {
+          "address": "0x3dd02dd7507dbd9bb0c89c6608a96b844e3fd07d",
+          "net_purchase": 1972.5375886265235
+        },
+        {
+          "address": "0xc16d1cc354867777a2a701680d570e769f226c46",
+          "net_purchase": 986.224702324027
+        },
+        {
+          "address": "0xea557c40c08d7b78f9780a6be0a7153c29d9d280",
+          "net_purchase": 214.73139750445822
+        },
+        {
+          "address": "0x607d3c499a05e539e1868be95bc43bc9b06fa494",
+          "net_purchase": 197.40197392891974
+        },
+        {
+          "address": "0xbd4309f902e7c7ac7dc70edd3b0cc5b012569a53",
+          "net_purchase": 0.0
+        },
+        {
+          "address": "0xa5d9ce4aa0bedd516d4b4cab2050491bb14da609",
+          "net_purchase": 0.0
+        },
+        {
+          "address": "0xd5dadd6a9f8d8d8f06566e18d6588c9bfd30030a",
+          "net_purchase": 0.0
+        },
+        {
+          "address": "0x506f6204cf44abd7332124e98e5a6674f3b39a73",
+          "net_purchase": -98.25199521322091
+        },
+        {
+          "address": "0x6b46e45806e168720df7a09b3f7c7248cc394a6c",
+          "net_purchase": -43698.73719671016
+        },
+        {
+          "address": "0x46efaa66960a6916138b9693833cc1c5305ebf3a",
+          "net_purchase": -217793.59219876752
+        },
+        {
+          "address": "0x7e839e2ea2e570c74803dfc24b80cd69979cde18",
+          "net_purchase": -336684.667527
+        },
+        {
+          "address": "0xad5f9ad4971aa3a8d3d74bed36a065d165a9cb7f",
+          "net_purchase": -434800.47546590364
+        },
+        {
+          "address": "0xe96a89c0b97599ffdb26513097d2215f068189ac",
+          "net_purchase": -462851.11546897516
+        },
+        {
+          "address": "0xd4742439da2f03212495bb9492014bcde6ee419c",
+          "net_purchase": -500000.0
+        },
+        {
+          "address": "0x34c99e1d08da69afbaea80e1dfe7e1bcf3e5c162",
+          "net_purchase": -885900.031310635
+        },
+        {
+          "address": "0xb953caa781e54a11775f6b58cb2a9f58073186c7",
+          "net_purchase": -1867842.0935755877
+        },
+        {
+          "address": "0xa4d5db12b71ce4d31bf900f3629a3bbb93e29ef3",
+          "net_purchase": -2070845.5129228977
+        },
+        {
+          "address": "0xf34713f90b8d11f4e6d9f5bea33ea3dc6943a3f9",
+          "net_purchase": -2313008.8320815414
+        },
+        {
+          "address": "0x346787cd6525040f67e50f6ef571ea628faadf0b",
+          "net_purchase": -2497710.658186522
+        },
+        {
+          "address": "0x5a9ca9c73b1964cc58039dcd887a81e8cb5a36a5",
+          "net_purchase": -4859848.902426597
+        },
+        {
+          "address": "0x1237189e0f6f966f9453e72f251bbce7da6f992f",
+          "net_purchase": -8182755.930215694
+        },
+        {
+          "address": "0xcdac935e0a5cfd7c0d864113771729f04ffbf47f",
+          "net_purchase": -13168134.550435327
+        },
+        {
+          "address": "0x75f17a84262b77a83042d7b48712333d74e674bf",
+          "net_purchase": -15100000.0
+        }
+      ]
+    },
+    {
+      "last_updated": "2024-10-22T14:42:22.239527",
+      "start_block": 167429702,
+      "end_block": 168034504,
+      "rankings": [
+        {
+          "address": "0x545cc4e40ebaf2856e1582550369d0301b495368",
+          "net_purchase": 25406478.50446005
+        },
+        {
+          "address": "0x888f3bb0bfe94a39211faecedef546a8b33dbc9d",
+          "net_purchase": 10359280.761747763
+        },
+        {
+          "address": "0xa820cb418677620c798d1a5f014c04e79412a528",
+          "net_purchase": 10266685.286003258
+        },
+        {
+          "address": "0x3f11347ca4c99b553bc5a918bf1316242453d72f",
+          "net_purchase": 3899413.303630118
+        },
+        {
+          "address": "0x9e3ce60edb42fe9719f6fe8528f1a0cd480a44bd",
+          "net_purchase": 3260887.179359541
+        },
+        {
+          "address": "0x4367c70519a25222057ce3eec461f024e5463a59",
+          "net_purchase": 2422296.665234197
+        },
+        {
+          "address": "0x855e183ed027ecbf6565a7298e8cb1b6ff4ebf26",
+          "net_purchase": 2315379.313529002
+        },
+        {
+          "address": "0x0d1c6beeb4337d91a03ddd9b8d3e3dcd9fc1a89d",
+          "net_purchase": 2179423.1754162684
+        },
+        {
+          "address": "0x84f4066470c30448fe01c036d4042ca9a1b4acec",
+          "net_purchase": 1164555.0612395336
+        },
+        {
+          "address": "0x2f64a64b540e4637b906e09ef07bb56527186f29",
+          "net_purchase": 950484.4421316823
+        },
+        {
+          "address": "0xe301cc7c554540654100169b7a62639caa2b2623",
+          "net_purchase": 661106.4512263571
+        },
+        {
+          "address": "0x7f534dffaab7bfb20a5a2fc9a457cc9d1a717f7e",
+          "net_purchase": 403057.2051140264
+        },
+        {
+          "address": "0x863988020a3715568ea27e3c117471503ab2c3db",
+          "net_purchase": 289432.6496094446
+        },
+        {
+          "address": "0x4c43cc0f53fd0139223a6b71ace8e43a159fec19",
+          "net_purchase": 282830.50626074686
+        },
+        {
+          "address": "0x756563df5c674c371a630358aadc4b87ce6e2be5",
+          "net_purchase": 196659.07275169078
+        },
+        {
+          "address": "0xb3193785ca057edde11407c48a2e20284b4d6bb4",
+          "net_purchase": 126363.68340116607
+        },
+        {
+          "address": "0xe5e12d35bf20b189c1a4fa7798410d46c38c9d62",
+          "net_purchase": 124042.5641183334
+        },
+        {
+          "address": "0xe23f237108e9668665ef5f6d29a895a5c2d1fc80",
+          "net_purchase": 45288.91666829794
+        },
+        {
+          "address": "0xb42747aaba1bd63200eb3e0eb789a3e2057f8dbd",
+          "net_purchase": 13840.696203154323
+        },
+        {
+          "address": "0x3dd02dd7507dbd9bb0c89c6608a96b844e3fd07d",
+          "net_purchase": 1972.5375886265235
+        },
+        {
+          "address": "0xc16d1cc354867777a2a701680d570e769f226c46",
+          "net_purchase": 986.224702324027
+        },
+        {
+          "address": "0x4d870732fe950d4f8cd6fde8c98a58766b0558ea",
+          "net_purchase": 226.14540696246186
+        },
+        {
+          "address": "0xea557c40c08d7b78f9780a6be0a7153c29d9d280",
+          "net_purchase": 214.73139750445822
+        },
+        {
+          "address": "0x607d3c499a05e539e1868be95bc43bc9b06fa494",
+          "net_purchase": 197.40197392891974
+        },
+        {
+          "address": "0xbd4309f902e7c7ac7dc70edd3b0cc5b012569a53",
+          "net_purchase": 0.0
+        },
+        {
+          "address": "0xa5d9ce4aa0bedd516d4b4cab2050491bb14da609",
+          "net_purchase": 0.0
+        },
+        {
+          "address": "0xd5dadd6a9f8d8d8f06566e18d6588c9bfd30030a",
+          "net_purchase": 0.0
+        },
+        {
+          "address": "0x506f6204cf44abd7332124e98e5a6674f3b39a73",
+          "net_purchase": -98.25199521322091
+        },
+        {
+          "address": "0x6b46e45806e168720df7a09b3f7c7248cc394a6c",
+          "net_purchase": -43698.73719671016
+        },
+        {
+          "address": "0x46efaa66960a6916138b9693833cc1c5305ebf3a",
+          "net_purchase": -217793.59219876752
+        },
+        {
+          "address": "0x7e839e2ea2e570c74803dfc24b80cd69979cde18",
+          "net_purchase": -336684.667527
+        },
+        {
+          "address": "0xad5f9ad4971aa3a8d3d74bed36a065d165a9cb7f",
+          "net_purchase": -434800.47546590364
+        },
+        {
+          "address": "0xe96a89c0b97599ffdb26513097d2215f068189ac",
+          "net_purchase": -462851.11546897516
+        },
+        {
+          "address": "0xd4742439da2f03212495bb9492014bcde6ee419c",
+          "net_purchase": -500000.0
+        },
+        {
+          "address": "0xb953caa781e54a11775f6b58cb2a9f58073186c7",
+          "net_purchase": -1867842.0935755877
+        },
+        {
+          "address": "0xa4d5db12b71ce4d31bf900f3629a3bbb93e29ef3",
+          "net_purchase": -2070845.5129228977
+        },
+        {
+          "address": "0x346787cd6525040f67e50f6ef571ea628faadf0b",
+          "net_purchase": -2497710.658186522
+        },
+        {
+          "address": "0xf34713f90b8d11f4e6d9f5bea33ea3dc6943a3f9",
+          "net_purchase": -3332214.9602497723
+        },
+        {
+          "address": "0x34c99e1d08da69afbaea80e1dfe7e1bcf3e5c162",
+          "net_purchase": -4585900.031310635
+        },
+        {
+          "address": "0x5a9ca9c73b1964cc58039dcd887a81e8cb5a36a5",
+          "net_purchase": -4859848.902426597
+        },
+        {
+          "address": "0x1237189e0f6f966f9453e72f251bbce7da6f992f",
+          "net_purchase": -8182755.930215694
+        },
+        {
+          "address": "0xcdac935e0a5cfd7c0d864113771729f04ffbf47f",
+          "net_purchase": -13168134.550435327
+        },
+        {
+          "address": "0x75f17a84262b77a83042d7b48712333d74e674bf",
+          "net_purchase": -15100000.0
+        }
+      ]
+    },
+    {
+      "last_updated": "2024-10-22T15:58:49.050761",
+      "start_block": 167429702,
+      "end_block": 168034504,
+      "rankings": [
+        {
+          "address": "0x545cc4e40ebaf2856e1582550369d0301b495368",
+          "net_purchase": 25400477.78443021
+        },
+        {
+          "address": "0x3f11347ca4c99b553bc5a918bf1316242453d72f",
+          "net_purchase": 11460353.454036687
+        },
+        {
+          "address": "0x2f64a64b540e4637b906e09ef07bb56527186f29",
+          "net_purchase": 4948424.4982062485
+        },
+        {
+          "address": "0x9e3ce60edb42fe9719f6fe8528f1a0cd480a44bd",
+          "net_purchase": 3260887.179359541
+        },
+        {
+          "address": "0x4367c70519a25222057ce3eec461f024e5463a59",
+          "net_purchase": 2422296.665234197
+        },
+        {
+          "address": "0x855e183ed027ecbf6565a7298e8cb1b6ff4ebf26",
+          "net_purchase": 2315379.313529002
+        },
+        {
+          "address": "0x4c43cc0f53fd0139223a6b71ace8e43a159fec19",
+          "net_purchase": 1825830.5062607469
+        },
+        {
+          "address": "0x84f4066470c30448fe01c036d4042ca9a1b4acec",
+          "net_purchase": 1164555.0612395336
+        },
+        {
+          "address": "0x7f534dffaab7bfb20a5a2fc9a457cc9d1a717f7e",
+          "net_purchase": 403057.2051140264
+        },
+        {
+          "address": "0xf34713f90b8d11f4e6d9f5bea33ea3dc6943a3f9",
+          "net_purchase": 317840.705077542
+        },
+        {
+          "address": "0x863988020a3715568ea27e3c117471503ab2c3db",
+          "net_purchase": 254079.65404700977
+        },
+        {
+          "address": "0x756563df5c674c371a630358aadc4b87ce6e2be5",
+          "net_purchase": 196659.07275169078
+        },
+        {
+          "address": "0xb3193785ca057edde11407c48a2e20284b4d6bb4",
+          "net_purchase": 126363.68340116607
+        },
+        {
+          "address": "0x0d1c6beeb4337d91a03ddd9b8d3e3dcd9fc1a89d",
+          "net_purchase": 113082.2450571152
+        },
+        {
+          "address": "0xe5e12d35bf20b189c1a4fa7798410d46c38c9d62",
+          "net_purchase": 108891.28030586132
+        },
+        {
+          "address": "0xe23f237108e9668665ef5f6d29a895a5c2d1fc80",
+          "net_purchase": 45288.91666829794
+        },
+        {
+          "address": "0xb42747aaba1bd63200eb3e0eb789a3e2057f8dbd",
+          "net_purchase": 13840.696203154323
+        },
+        {
+          "address": "0x3dd02dd7507dbd9bb0c89c6608a96b844e3fd07d",
+          "net_purchase": 1972.5375886265235
+        },
+        {
+          "address": "0xc16d1cc354867777a2a701680d570e769f226c46",
+          "net_purchase": 986.224702324027
+        },
+        {
+          "address": "0x4d870732fe950d4f8cd6fde8c98a58766b0558ea",
+          "net_purchase": 226.14540696246186
+        },
+        {
+          "address": "0xea557c40c08d7b78f9780a6be0a7153c29d9d280",
+          "net_purchase": 214.73139750445822
+        },
+        {
+          "address": "0x607d3c499a05e539e1868be95bc43bc9b06fa494",
+          "net_purchase": 197.40197392891974
+        },
+        {
+          "address": "0x506f6204cf44abd7332124e98e5a6674f3b39a73",
+          "net_purchase": 65.13061647416866
+        },
+        {
+          "address": "0xbd4309f902e7c7ac7dc70edd3b0cc5b012569a53",
+          "net_purchase": 0.0
+        },
+        {
+          "address": "0xa5d9ce4aa0bedd516d4b4cab2050491bb14da609",
+          "net_purchase": 0.0
+        },
+        {
+          "address": "0xd5dadd6a9f8d8d8f06566e18d6588c9bfd30030a",
+          "net_purchase": 0.0
+        },
+        {
+          "address": "0x6b46e45806e168720df7a09b3f7c7248cc394a6c",
+          "net_purchase": -43698.73719671016
+        },
+        {
+          "address": "0xe301cc7c554540654100169b7a62639caa2b2623",
+          "net_purchase": -219539.03541425383
+        },
+        {
+          "address": "0x7e839e2ea2e570c74803dfc24b80cd69979cde18",
+          "net_purchase": -336684.667527
+        },
+        {
+          "address": "0xad5f9ad4971aa3a8d3d74bed36a065d165a9cb7f",
+          "net_purchase": -434800.47546590364
+        },
+        {
+          "address": "0xe96a89c0b97599ffdb26513097d2215f068189ac",
+          "net_purchase": -462851.11546897516
+        },
+        {
+          "address": "0xd4742439da2f03212495bb9492014bcde6ee419c",
+          "net_purchase": -500000.0
+        },
+        {
+          "address": "0xb953caa781e54a11775f6b58cb2a9f58073186c7",
+          "net_purchase": -1867842.0935755877
+        },
+        {
+          "address": "0xa4d5db12b71ce4d31bf900f3629a3bbb93e29ef3",
+          "net_purchase": -2070845.5129228977
+        },
+        {
+          "address": "0x346787cd6525040f67e50f6ef571ea628faadf0b",
+          "net_purchase": -2497710.658186522
+        },
+        {
+          "address": "0x5a9ca9c73b1964cc58039dcd887a81e8cb5a36a5",
+          "net_purchase": -4859848.902426597
+        },
+        {
+          "address": "0x1237189e0f6f966f9453e72f251bbce7da6f992f",
+          "net_purchase": -8182755.930215694
+        },
+        {
+          "address": "0xcdac935e0a5cfd7c0d864113771729f04ffbf47f",
+          "net_purchase": -13168134.550435327
+        },
+        {
+          "address": "0x34c99e1d08da69afbaea80e1dfe7e1bcf3e5c162",
+          "net_purchase": -13599587.031310635
+        },
+        {
+          "address": "0x75f17a84262b77a83042d7b48712333d74e674bf",
+          "net_purchase": -15100000.0
+        }
+      ]
+    },
+    {
+      "last_updated": "2024-10-22T17:40:22.251800",
+      "start_block": 167429702,
+      "end_block": 168034504,
+      "rankings": [
+        {
+          "address": "0x545cc4e40ebaf2856e1582550369d0301b495368",
+          "net_purchase": 25127124.27141662
+        },
+        {
+          "address": "0x3f11347ca4c99b553bc5a918bf1316242453d72f",
+          "net_purchase": 13749181.720983298
+        },
+        {
+          "address": "0x855e183ed027ecbf6565a7298e8cb1b6ff4ebf26",
+          "net_purchase": 2315379.313529002
+        },
+        {
+          "address": "0x84f4066470c30448fe01c036d4042ca9a1b4acec",
+          "net_purchase": 1164555.0612395336
+        },
+        {
+          "address": "0x9e3ce60edb42fe9719f6fe8528f1a0cd480a44bd",
+          "net_purchase": 1000011.0813975288
+        },
+        {
+          "address": "0x7f534dffaab7bfb20a5a2fc9a457cc9d1a717f7e",
+          "net_purchase": 403057.2051140264
+        },
+        {
+          "address": "0x863988020a3715568ea27e3c117471503ab2c3db",
+          "net_purchase": 254079.65404700977
+        },
+        {
+          "address": "0xb3193785ca057edde11407c48a2e20284b4d6bb4",
+          "net_purchase": 126363.68340116607
+        },
+        {
+          "address": "0x0d1c6beeb4337d91a03ddd9b8d3e3dcd9fc1a89d",
+          "net_purchase": 113082.2450571152
+        },
+        {
+          "address": "0xe5e12d35bf20b189c1a4fa7798410d46c38c9d62",
+          "net_purchase": 108891.28030586132
+        },
+        {
+          "address": "0xe23f237108e9668665ef5f6d29a895a5c2d1fc80",
+          "net_purchase": 45288.91666829794
+        },
+        {
+          "address": "0xb42747aaba1bd63200eb3e0eb789a3e2057f8dbd",
+          "net_purchase": 13840.696203154323
+        },
+        {
+          "address": "0x4d870732fe950d4f8cd6fde8c98a58766b0558ea",
+          "net_purchase": 226.14540696246186
+        },
+        {
+          "address": "0xea557c40c08d7b78f9780a6be0a7153c29d9d280",
+          "net_purchase": 214.73139750445822
+        },
+        {
+          "address": "0x506f6204cf44abd7332124e98e5a6674f3b39a73",
+          "net_purchase": 65.13061647416866
+        },
+        {
+          "address": "0xbd4309f902e7c7ac7dc70edd3b0cc5b012569a53",
+          "net_purchase": 0.0
+        },
+        {
+          "address": "0xa5d9ce4aa0bedd516d4b4cab2050491bb14da609",
+          "net_purchase": 0.0
+        },
+        {
+          "address": "0xd5dadd6a9f8d8d8f06566e18d6588c9bfd30030a",
+          "net_purchase": 0.0
+        },
+        {
+          "address": "0x6b46e45806e168720df7a09b3f7c7248cc394a6c",
+          "net_purchase": -43698.73719671016
+        },
+        {
+          "address": "0x4367c70519a25222057ce3eec461f024e5463a59",
+          "net_purchase": -190845.99994176254
+        },
+        {
+          "address": "0xe301cc7c554540654100169b7a62639caa2b2623",
+          "net_purchase": -219539.03541425383
+        },
+        {
+          "address": "0xad5f9ad4971aa3a8d3d74bed36a065d165a9cb7f",
+          "net_purchase": -434800.47546590364
+        },
+        {
+          "address": "0xe96a89c0b97599ffdb26513097d2215f068189ac",
+          "net_purchase": -462851.11546897516
+        },
+        {
+          "address": "0xd4742439da2f03212495bb9492014bcde6ee419c",
+          "net_purchase": -500000.0
+        },
+        {
+          "address": "0xf34713f90b8d11f4e6d9f5bea33ea3dc6943a3f9",
+          "net_purchase": -539897.5451884316
+        },
+        {
+          "address": "0x7e839e2ea2e570c74803dfc24b80cd69979cde18",
+          "net_purchase": -830993.3713463504
+        },
+        {
+          "address": "0x1237189e0f6f966f9453e72f251bbce7da6f992f",
+          "net_purchase": -3637066.9476617705
+        },
+        {
+          "address": "0xcdac935e0a5cfd7c0d864113771729f04ffbf47f",
+          "net_purchase": -13168134.550435327
+        },
+        {
+          "address": "0x34c99e1d08da69afbaea80e1dfe7e1bcf3e5c162",
+          "net_purchase": -13799587.031310635
+        },
+        {
+          "address": "0x75f17a84262b77a83042d7b48712333d74e674bf",
+          "net_purchase": -15100000.0
+        }
+      ]
+    }
+  ]
+}
