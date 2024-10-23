@@ -20,8 +20,8 @@ chat_id = os.environ.get('chat_id')
 START_BLOCK = 167429702
 
 # JSON 파일 경로
-TRANSFERS_JSON = 'moodeng_transfers_2.json'
-RANKINGS_JSON = 'moodeng_rankings_2.json'
+TRANSFERS_JSON = 'moodeng_transfers_1.json'
+RANKINGS_JSON = 'moodeng_rankings_1.json'
 
 # 스왑 주소 설정
 SWAP_ADDRESSES = [
@@ -30,7 +30,9 @@ SWAP_ADDRESSES = [
     "0xd9ffa5dd8b595b904f76e3e7d71e4f85c3afa9ae",  # 새로 추가된 주소
     "0xedcad4bd04f59e8fcc7c5fc7547e5112ae9923df",  # 드래곤 스왑
     "0xea9cb97ed3d711afd07f1ba91b568627d12b6f9f",  # 드래곤 스왑
-    "0x4e7bbe1279c8ca0098698ee1f47d0b1ad246d44a"   # KLAY SWAP 
+    "0x4e7bbe1279c8ca0098698ee1f47d0b1ad246d44a",   # KLAY SWAP 
+    "0xe60145b2b9c94186f16072db6d327e91ce18b96a",
+    "0xc2c007352c00fefa1a4752a28658705168abd873"
 ]
 
 MOODENG_ADDRESS = "0xedcad4bd04f59e8fcc7c5fc7547e5112ae9923df"
@@ -87,7 +89,7 @@ async def get_transfers(page):
 
 
 async def save_transfers():
-    """전송 데이터를 수집하고 JSON 파일로 저장. 이전 데이터와 중복되는 시점에서 중단"""
+    """전송 데이터를 수집하고 JSON 파일로 저장. 동일한 parent hash의 다른 거래도 저장"""
     try:
         # 기존 데이터 로드 또는 새로운 딕셔너리 생성
         transfers_data = {}
@@ -103,46 +105,42 @@ async def save_transfers():
             with open(TRANSFERS_JSON, 'w') as f:
                 json.dump({}, f)
 
-        # 기존 데이터의 parent hash 집합 생성
-        existing_hashes = set(transfers_data.keys())
+        # 기존 데이터의 block number 집합 생성
+        existing_blocks = set(int(tx['block_number']) for tx in transfers_data.values())
         
         page = 1
-        new_data_found = False  # 새로운 데이터가 추가되었는지 추적
+        new_data_found = False
         
         while True:
             transfers = await get_transfers(page)
             if not transfers:
                 break
 
-            found_duplicate = False
+            found_old_block = False
             for transfer in transfers:
                 block_number = int(transfer['blockNumber'])
                 
                 # START_BLOCK보다 작거나 같은 블록을 만나면 종료
                 if block_number <= START_BLOCK:
-                    found_duplicate = True
+                    found_old_block = True
                     break
 
-                # parentHash 확인
-                parent_hash = transfer['parentHash']
-                
-                # 이미 존재하는 hash를 만나면 종료
-                if parent_hash in existing_hashes:
-                    found_duplicate = True
-                    break
+                # 고유 식별자로 parent hash와 from/to 주소 조합 사용
+                tx_id = f"{transfer['parentHash']}_{transfer['fromAddress']}_{transfer['toAddress']}"
                 
                 # 새로운 데이터 추가
-                if parent_hash not in transfers_data:
-                    transfers_data[parent_hash] = {
+                if tx_id not in transfers_data:
+                    transfers_data[tx_id] = {
                         'from_address': transfer['fromAddress'].lower(),
                         'to_address': transfer['toAddress'].lower(),
                         'amount': int(transfer['amount']) / 10**int(transfer['decimals']),
-                        'block_number': block_number
+                        'block_number': block_number,
+                        'parent_hash': transfer['parentHash']  # parent hash도 저장
                     }
                     new_data_found = True
 
-            # 중복 데이터를 찾았거나 START_BLOCK 이하의 블록을 만났다면 종료
-            if found_duplicate:
+            # START_BLOCK 이하의 블록을 만났다면 종료
+            if found_old_block:
                 break
 
             page += 1
@@ -157,7 +155,7 @@ async def save_transfers():
     except Exception as e:
         print(f"Error saving transfers: {e}")
         return None
-
+    
 async def update_rankings():
     """전송 데이터를 분석하여 거래 유형을 추가하고 순위 업데이트"""
     try:
