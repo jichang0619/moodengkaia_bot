@@ -20,8 +20,8 @@ chat_id = os.environ.get('chat_id')
 START_BLOCK = 167429702
 
 # JSON 파일 경로
-TRANSFERS_JSON = 'moodeng_transfers_1.json'
-RANKINGS_JSON = 'moodeng_rankings_1.json'
+TRANSFERS_JSON = 'moodeng_transfers_2.json'
+RANKINGS_JSON = 'moodeng_rankings_2.json'
 
 # 스왑 주소 설정
 SWAP_ADDRESSES = [
@@ -87,7 +87,7 @@ async def get_transfers(page):
 
 
 async def save_transfers():
-    """전송 데이터를 수집하고 JSON 파일로 저장"""
+    """전송 데이터를 수집하고 JSON 파일로 저장. 이전 데이터와 중복되는 시점에서 중단"""
     try:
         # 기존 데이터 로드 또는 새로운 딕셔너리 생성
         transfers_data = {}
@@ -103,21 +103,35 @@ async def save_transfers():
             with open(TRANSFERS_JSON, 'w') as f:
                 json.dump({}, f)
 
+        # 기존 데이터의 parent hash 집합 생성
+        existing_hashes = set(transfers_data.keys())
+        
         page = 1
+        new_data_found = False  # 새로운 데이터가 추가되었는지 추적
+        
         while True:
             transfers = await get_transfers(page)
             if not transfers:
                 break
 
+            found_duplicate = False
             for transfer in transfers:
                 block_number = int(transfer['blockNumber'])
                 
                 # START_BLOCK보다 작거나 같은 블록을 만나면 종료
                 if block_number <= START_BLOCK:
+                    found_duplicate = True
                     break
 
-                # parentHash를 키로 사용 (transactionHash 대신)
+                # parentHash 확인
                 parent_hash = transfer['parentHash']
+                
+                # 이미 존재하는 hash를 만나면 종료
+                if parent_hash in existing_hashes:
+                    found_duplicate = True
+                    break
+                
+                # 새로운 데이터 추가
                 if parent_hash not in transfers_data:
                     transfers_data[parent_hash] = {
                         'from_address': transfer['fromAddress'].lower(),
@@ -125,24 +139,27 @@ async def save_transfers():
                         'amount': int(transfer['amount']) / 10**int(transfer['decimals']),
                         'block_number': block_number
                     }
+                    new_data_found = True
 
-            # START_BLOCK보다 작거나 같은 블록을 만났다면 종료
-            if any(int(t['blockNumber']) <= START_BLOCK for t in transfers):
+            # 중복 데이터를 찾았거나 START_BLOCK 이하의 블록을 만났다면 종료
+            if found_duplicate:
                 break
 
             page += 1
             await asyncio.sleep(2.5)
 
-        # 데이터 저장
-        with open(TRANSFERS_JSON, 'w') as f:
-            json.dump(transfers_data, f, indent=2)
+        # 새로운 데이터가 있을 때만 파일 저장
+        if new_data_found:
+            with open(TRANSFERS_JSON, 'w') as f:
+                json.dump(transfers_data, f, indent=2)
 
         return transfers_data
     except Exception as e:
         print(f"Error saving transfers: {e}")
         return None
+
 async def update_rankings():
-    """전송 데이터를 분석하여 순위 업데이트"""
+    """전송 데이터를 분석하여 거래 유형을 추가하고 순위 업데이트"""
     try:
         # 전송 데이터 파일이 없으면 빈 파일 생성
         if not os.path.exists(TRANSFERS_JSON):
@@ -162,27 +179,39 @@ async def update_rankings():
         with open(TRANSFERS_JSON, 'r') as f:
             transfers_data = json.load(f)
 
-        # 지갑별 거래량 계산
+        # 지갑별 거래량 계산 및 거래 유형 추가
         wallet_stats = {}
+        updated_transfers = {}
         
         for tx_hash, tx_data in transfers_data.items():
             from_address = tx_data['from_address']
             to_address = tx_data['to_address']
             amount = tx_data['amount']
-
-            # 거래 유형 분류
+            
+            # 거래 유형 분류 및 데이터 업데이트
+            tx_type = 'unknown'
             if from_address in SWAP_ADDRESSES and to_address in SWAP_ADDRESSES:
-                continue  # skip
+                tx_type = 'skip'
             elif from_address in SWAP_ADDRESSES:
-                # buy
+                tx_type = 'buy'
                 if to_address not in wallet_stats:
                     wallet_stats[to_address] = {'buy': 0, 'sell': 0}
                 wallet_stats[to_address]['buy'] += amount
             elif to_address in SWAP_ADDRESSES:
-                # sell
+                tx_type = 'sell'
                 if from_address not in wallet_stats:
                     wallet_stats[from_address] = {'buy': 0, 'sell': 0}
                 wallet_stats[from_address]['sell'] += amount
+
+            # 기존 데이터에 거래 유형 추가
+            updated_transfers[tx_hash] = {
+                **tx_data,  # 기존 데이터 유지
+                'transaction_type': tx_type  # 거래 유형 추가
+            }
+
+        # 업데이트된 전송 데이터 저장
+        with open(TRANSFERS_JSON, 'w') as f:
+            json.dump(updated_transfers, f, indent=2)
 
         # 순매수량 계산 및 정렬
         rankings = []
@@ -210,7 +239,7 @@ async def update_rankings():
         return rankings[:10]  # 상위 10개만 반환
     except Exception as e:
         print(f"Error updating rankings: {e}")
-        return None
+        return None    
 
 async def rankings_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
     try:
